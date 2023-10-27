@@ -1,0 +1,418 @@
+CRITICAL - 2023-10-10 06:23:59 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 06:23:59 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:20:20 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:20:20 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:20:43 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:20:43 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:47:10 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 08:47:10 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:48:04 --> Attempt to read property "expenseID" on null
+in APPPATH\Views\expenses\form.php on line 5.
+ 1 APPPATH\Views\expenses\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "expenseID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\expenses.php(51): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:48:13 --> Attempt to read property "expenseID" on null
+in APPPATH\Views\expenses\form.php on line 5.
+ 1 APPPATH\Views\expenses\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "expenseID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\expenses.php(51): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_506\' value=\'506\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:48:19 --> Attempt to read property "expenseID" on null
+in APPPATH\Views\expenses\form.php on line 5.
+ 1 APPPATH\Views\expenses\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "expenseID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\expenses.php(51): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:48:26 --> Attempt to read property "expenseID" on null
+in APPPATH\Views\expenses\form.php on line 5.
+ 1 APPPATH\Views\expenses\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "expenseID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\expenses.php(51): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:49:29 --> Attempt to read property "expenseID" on null
+in APPPATH\Views\expenses\form.php on line 5.
+ 1 APPPATH\Views\expenses\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "expenseID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\expenses.php(51): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:49:35 --> Attempt to read property "expenseID" on null
+in APPPATH\Views\expenses\form.php on line 5.
+ 1 APPPATH\Views\expenses\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "expenseID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\expenses.php(51): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:49:51 --> Attempt to read property "expenseID" on null
+in APPPATH\Views\expenses\form.php on line 5.
+ 1 APPPATH\Views\expenses\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "expenseID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\expenses.php(51): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:51:20 --> Attempt to read property "expenseID" on null
+in APPPATH\Views\expenses\form.php on line 5.
+ 1 APPPATH\Views\expenses\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "expenseID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\expenses.php(51): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:52:33 --> Attempt to read property "expenseID" on null
+in APPPATH\Views\expenses\form.php on line 5.
+ 1 APPPATH\Views\expenses\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "expenseID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\expenses.php(51): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:52:42 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:53:03 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 09:58:18 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:01:29 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:01:42 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:02:00 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view('30')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:05:56 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view('\' . $apartment->apartmentID', '<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:06:43 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view('\' . $apartment->apartmentID', '<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:07:21 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:09:48 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view('<input type=\'checkbox\' name=\'chk[]\' id=\'person_507\' value=\'507\'', '>')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:42:55 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 105.
+ 1 APPPATH\Controllers\apartments.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:51:08 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 105.
+ 1 APPPATH\Controllers\apartments.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:54:03 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 105.
+ 1 APPPATH\Controllers\apartments.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 10:54:13 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 105.
+ 1 APPPATH\Controllers\apartments.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:36:52 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:48:49 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:48:54 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:49:41 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 11:50:10 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 12:09:18 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 12:09:31 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 12:14:12 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 12:16:15 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 12:16:18 --> Attempt to read property "apartmentID" on null
+in APPPATH\Views\apartments\form.php on line 5.
+ 1 APPPATH\Views\apartments\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "apartmentID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/form', [], true)
+ 5 APPPATH\Controllers\apartments.php(50): view('apartments/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 12:18:27 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 12:27:38 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 12:39:39 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-10 14:40:10 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

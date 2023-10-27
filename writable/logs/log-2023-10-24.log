@@ -1,0 +1,156 @@
+CRITICAL - 2023-10-24 05:50:59 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-24 05:51:00 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-24 06:19:17 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-24 06:19:17 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-24 06:19:39 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-24 06:19:39 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-24 06:19:54 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-24 06:19:55 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-24 12:03:20 --> mysqli_sql_exception: Unknown column 'storeID' in 'field list' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\Staff.php(138): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Staff->save()
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-24 12:03:20 --> Unknown column 'storeID' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `staff` (`photo`, `firstName`, `lastName`, `email`, `phone`, `IDNumber`, `storeID`, `systemUser`, `homeAddress`, `role`, `username`, `createdAt`, `updatedAt`) VALUES (:photo:, :firstName:, :lastName:, :email:, :phone:, :IDNumber:, :storeID:, :systemUser:, :homeAddress:, :role:, :username:, :createdAt:, :updatedAt:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Staff.php(138): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->save()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-24 12:06:23 --> mysqli_sql_exception: Unknown column 'systemUser' in 'field list' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\Staff.php(137): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Staff->save()
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-24 12:06:23 --> Unknown column 'systemUser' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `staff` (`photo`, `firstName`, `lastName`, `email`, `phone`, `IDNumber`, `systemUser`, `homeAddress`, `role`, `username`, `createdAt`, `updatedAt`) VALUES (:photo:, :firstName:, :lastName:, :email:, :phone:, :IDNumber:, :systemUser:, :homeAddress:, :role:, :username:, :createdAt:, :updatedAt:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Staff.php(137): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->save()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-24 12:23:00 --> mysqli_sql_exception: Column 'firstName' cannot be null in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\Staff.php(136): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Staff->save()
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-24 12:23:00 --> Column 'firstName' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `staff` (`photo`, `firstName`, `lastName`, `email`, `phone`, `IDNumber`, `homeAddress`, `role`, `username`, `createdAt`, `updatedAt`) VALUES (:photo:, :firstName:, :lastName:, :email:, :phone:, :IDNumber:, :homeAddress:, :role:, :username:, :createdAt:, :updatedAt:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Staff.php(136): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->save()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

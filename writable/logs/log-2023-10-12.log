@@ -1,0 +1,70 @@
+CRITICAL - 2023-10-12 06:03:46 --> Undefined property: stdClass::$housetypes
+in APPPATH\Controllers\apartments.php on line 117.
+ 1 APPPATH\Controllers\apartments.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$housetypes', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 06:16:35 --> Undefined property: stdClass::$housetypes
+in APPPATH\Controllers\apartments.php on line 117.
+ 1 APPPATH\Controllers\apartments.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$housetypes', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 06:16:50 --> Undefined property: stdClass::$housetypes
+in APPPATH\Controllers\apartments.php on line 117.
+ 1 APPPATH\Controllers\apartments.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$housetypes', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 07:39:10 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 07:39:10 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 08:36:06 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 08:36:21 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 08:36:49 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 08:51:31 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 12:54:32 --> Undefined property: App\Controllers\Config::$load
+in APPPATH\Controllers\config.php on line 74.
+ 1 APPPATH\Controllers\config.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Config::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\config.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->backup()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

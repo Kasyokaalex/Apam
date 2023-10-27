@@ -1,0 +1,741 @@
+CRITICAL - 2023-10-04 06:19:31 --> Undefined variable $tenantID
+in APPPATH\Views\tenants\form.php on line 47.
+ 1 APPPATH\Views\tenants\form.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tenantID', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('25')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 06:26:40 --> Undefined variable $tenant_id
+in APPPATH\Views\tenants\form.php on line 3.
+ 1 APPPATH\Views\tenants\form.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tenant_id', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('25')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 06:56:00 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\apartments.php on line 9.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('apartments', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('apartments')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('apartments')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 06:56:22 --> Undefined property: loggedInStaff::$first_name
+in APPPATH\Views\apartments\manage.php on line 252.
+ 1 APPPATH\Views\apartments\manage.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$first_name', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\manage.php', 252)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/manage', [], true)
+ 5 APPPATH\Controllers\apartments.php(22): view('apartments/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 06:57:28 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 293.
+ 1 APPPATH\Controllers\apartments.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 293)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:02:12 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 293.
+ 1 APPPATH\Controllers\apartments.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 293)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:07:45 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 293.
+ 1 APPPATH\Controllers\apartments.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 293)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:09:05 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 293.
+ 1 APPPATH\Controllers\apartments.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 293)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:09:08 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 293.
+ 1 APPPATH\Controllers\apartments.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 293)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:10:59 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 293.
+ 1 APPPATH\Controllers\apartments.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 293)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:12:36 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 293.
+ 1 APPPATH\Controllers\apartments.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 293)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:15:06 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 293.
+ 1 APPPATH\Controllers\apartments.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 293)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:23:30 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 293.
+ 1 APPPATH\Controllers\apartments.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 293)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:23:33 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 293.
+ 1 APPPATH\Controllers\apartments.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 293)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:23:58 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 293.
+ 1 APPPATH\Controllers\apartments.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 293)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:25:57 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 294.
+ 1 APPPATH\Controllers\apartments.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:28:19 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:28:23 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:31:23 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:32:05 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:32:36 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:33:23 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:34:11 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:35:33 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:35:52 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:36:58 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\payments.php on line 8.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('payments', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('payments')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('payments')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:37:03 --> Undefined property: loggedInStaff::$staff_id
+in APPPATH\Views\people\staff.php on line 42.
+ 1 APPPATH\Views\people\staff.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$staff_id', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\staff.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\staff.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('people/staff', [], true)
+ 5 APPPATH\Controllers\staffs.php(21): view('people/staff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:37:13 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:38:09 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:39:00 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:44:53 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:46:14 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:49:01 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 07:53:12 --> Undefined property: App\Controllers\apartments::$input
+in APPPATH\Controllers\apartments.php on line 296.
+ 1 APPPATH\Controllers\apartments.php(296): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\apartments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 296)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 08:27:53 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\payments.php on line 8.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('payments', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('payments')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('payments')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 08:28:40 --> Undefined property: loggedInStaff::$first_name
+in APPPATH\Views\payments\manage.php on line 256.
+ 1 APPPATH\Views\payments\manage.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$first_name', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\payments\\manage.php', 256)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\payments\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('payments/manage', [], true)
+ 5 APPPATH\Controllers\payments.php(24): view('payments/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Payments->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 08:29:01 --> Undefined property: App\Controllers\Payments::$input
+in APPPATH\Controllers\payments.php on line 269.
+ 1 APPPATH\Controllers\payments.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Payments::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\payments.php', 269)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Payments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 08:39:55 --> Undefined property: stdClass::$paymentID
+in APPPATH\Controllers\payments.php on line 355.
+ 1 APPPATH\Controllers\payments.php(355): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$paymentID', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\payments.php', 355)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Payments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 08:40:25 --> Undefined property: stdClass::$paymentID
+in APPPATH\Controllers\payments.php on line 355.
+ 1 APPPATH\Controllers\payments.php(355): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$paymentID', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\payments.php', 355)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Payments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 08:46:22 --> Undefined property: loggedInStaff::$first_name
+in APPPATH\Views\apartments\overdues.php on line 257.
+ 1 APPPATH\Views\apartments\overdues.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$first_name', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\overdues.php', 257)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\apartments\\overdues.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('apartments/overdues', [], true)
+ 5 APPPATH\Controllers\overdues.php(21): view('apartments/overdues', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Overdues->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Overdues))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 08:47:26 --> Undefined array key "order"
+in APPPATH\Controllers\apartments.php on line 684.
+ 1 APPPATH\Controllers\apartments.php(684): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order"', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 684)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->overdues()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 09:26:45 --> syntax error, unexpected variable "$apartment", expecting "("
+in APPPATH\Controllers\overdues.php on line 253.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('overdues', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('overdues')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('overdues')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 09:27:25 --> syntax error, unexpected variable "$apartment", expecting "("
+in APPPATH\Controllers\overdues.php on line 255.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('overdues', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('overdues')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('overdues')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 09:27:46 --> syntax error, unexpected variable "$apartment", expecting "("
+in APPPATH\Controllers\overdues.php on line 253.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('overdues', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('overdues')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('overdues')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 09:27:53 --> syntax error, unexpected variable "$apartment", expecting "("
+in APPPATH\Controllers\overdues.php on line 253.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('overdues', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('overdues')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('overdues')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 09:28:08 --> Undefined array key "order"
+in APPPATH\Controllers\apartments.php on line 684.
+ 1 APPPATH\Controllers\apartments.php(684): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order"', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 684)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->overdues()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 09:30:30 --> Undefined array key "order"
+in APPPATH\Controllers\apartments.php on line 684.
+ 1 APPPATH\Controllers\apartments.php(684): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order"', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 684)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->overdues()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:03:48 --> Undefined array key "order"
+in APPPATH\Controllers\apartments.php on line 684.
+ 1 APPPATH\Controllers\apartments.php(684): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order"', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 684)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->overdues()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:18:09 --> Undefined property: loggedInStaff::$staff_id
+in APPPATH\Views\people\staff.php on line 42.
+ 1 APPPATH\Views\people\staff.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$staff_id', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\staff.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\staff.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('people/staff', [], true)
+ 5 APPPATH\Controllers\staffs.php(21): view('people/staff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:18:46 --> Undefined property: loggedInStaff::$first_name
+in APPPATH\Views\people\staff.php on line 221.
+ 1 APPPATH\Views\people\staff.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$first_name', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\staff.php', 221)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\staff.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('people/staff', [], true)
+ 5 APPPATH\Controllers\staffs.php(21): view('people/staff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:18:59 --> Undefined property: loggedInStaff::$firstname
+in APPPATH\Views\people\staff.php on line 221.
+ 1 APPPATH\Views\people\staff.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$firstname', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\staff.php', 221)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\staff.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('people/staff', [], true)
+ 5 APPPATH\Controllers\staffs.php(21): view('people/staff', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:19:13 --> Call to undefined method App\Models\Staff::get_all
+in SYSTEMPATH\Model.php on line 872.
+ 1 APPPATH\Controllers\staffs.php(137): CodeIgniter\Model->__call('get_all', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:26:26 --> Call to undefined method App\Models\Staff::get_logged_in_staff_info
+in SYSTEMPATH\Model.php on line 872.
+ 1 APPPATH\Controllers\staffs.php(146): CodeIgniter\Model->__call('get_logged_in_staff_info', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:30:04 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\expenses.php on line 8.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('expenses', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('expenses')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('expenses')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:30:27 --> Undefined property: loggedInStaff::$first_name
+in APPPATH\Views\expenses\manage.php on line 241.
+ 1 APPPATH\Views\expenses\manage.php(241): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$first_name', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\manage.php', 241)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\expenses\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/manage', [], true)
+ 5 APPPATH\Controllers\expenses.php(22): view('expenses/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:31:11 --> Call to undefined method App\Models\Expense::get_all
+in SYSTEMPATH\Model.php on line 872.
+ 1 APPPATH\Controllers\expenses.php(118): CodeIgniter\Model->__call('get_all', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:34:08 --> Undefined property: stdClass::$expense_id
+in APPPATH\Controllers\expenses.php on line 125.
+ 1 APPPATH\Controllers\expenses.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$expense_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\expenses.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:35:46 --> Undefined property: stdClass::$expense_id
+in APPPATH\Controllers\expenses.php on line 122.
+ 1 APPPATH\Controllers\expenses.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$expense_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\expenses.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:36:00 --> Undefined property: stdClass::$expense_id
+in APPPATH\Controllers\expenses.php on line 122.
+ 1 APPPATH\Controllers\expenses.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$expense_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\expenses.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:36:47 --> Undefined property: stdClass::$expense_id
+in APPPATH\Controllers\expenses.php on line 122.
+ 1 APPPATH\Controllers\expenses.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$expense_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\expenses.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:37:40 --> Undefined property: stdClass::$expense_id
+in APPPATH\Controllers\expenses.php on line 122.
+ 1 APPPATH\Controllers\expenses.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$expense_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\expenses.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:38:31 --> Undefined property: stdClass::$expense_id
+in APPPATH\Controllers\expenses.php on line 122.
+ 1 APPPATH\Controllers\expenses.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$expense_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\expenses.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:39:29 --> Undefined property: stdClass::$expense_id
+in APPPATH\Controllers\expenses.php on line 122.
+ 1 APPPATH\Controllers\expenses.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$expense_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\expenses.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:40:07 --> Undefined property: stdClass::$expense_id
+in APPPATH\Controllers\expenses.php on line 122.
+ 1 APPPATH\Controllers\expenses.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$expense_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\expenses.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:40:20 --> Undefined property: stdClass::$expense_id
+in APPPATH\Controllers\expenses.php on line 122.
+ 1 APPPATH\Controllers\expenses.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$expense_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\expenses.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:41:11 --> Undefined property: stdClass::$expense_id
+in APPPATH\Controllers\expenses.php on line 122.
+ 1 APPPATH\Controllers\expenses.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$expense_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\expenses.php', 122)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:47:16 --> Call to undefined method App\Models\Expense::get_info
+in SYSTEMPATH\Model.php on line 872.
+ 1 APPPATH\Controllers\expenses.php(38): CodeIgniter\Model->__call('get_info', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 10:48:05 --> Call to undefined method App\Models\Staff::get_logged_in_staff_info
+in SYSTEMPATH\Model.php on line 872.
+ 1 APPPATH\Controllers\staffs.php(146): CodeIgniter\Model->__call('get_logged_in_staff_info', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 11:21:53 --> Call to undefined method App\Models\Staff::get_logged_in_staff_info
+in SYSTEMPATH\Model.php on line 872.
+ 1 APPPATH\Controllers\staffs.php(146): CodeIgniter\Model->__call('get_logged_in_staff_info', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 12:55:08 --> Undefined property: loggedInStaff::$first_name
+in APPPATH\Views\home.php on line 281.
+ 1 APPPATH\Views\home.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$first_name', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\home.php', 281)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(126): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 12:55:10 --> Undefined property: loggedInStaff::$first_name
+in APPPATH\Views\home.php on line 281.
+ 1 APPPATH\Views\home.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$first_name', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\home.php', 281)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(126): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 12:56:02 --> Undefined property: loggedInStaff::$last_name
+in APPPATH\Views\home.php on line 281.
+ 1 APPPATH\Views\home.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$last_name', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\home.php', 281)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(126): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 12:56:20 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 12:56:21 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 13:05:36 --> Undefined array key "order"
+in APPPATH\Controllers\apartments.php on line 684.
+ 1 APPPATH\Controllers\apartments.php(684): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order"', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 684)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->overdues()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 13:05:51 --> Call to undefined method App\Models\Staff::get_logged_in_staff_info
+in SYSTEMPATH\Model.php on line 872.
+ 1 APPPATH\Controllers\staffs.php(146): CodeIgniter\Model->__call('get_logged_in_staff_info', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 13:15:36 --> Undefined property: stdClass::$apartmentAmount
+in APPPATH\Controllers\apartments.php on line 542.
+ 1 APPPATH\Controllers\apartments.php(542): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$apartmentAmount', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 542)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->data()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 13:16:50 --> Undefined property: App\Controllers\tenants::$input
+in APPPATH\Controllers\Tenants.php on line 93.
+ 1 APPPATH\Controllers\Tenants.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\tenants::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Tenants.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('193')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 13:21:18 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-04 13:21:30 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-04 13:22:40 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-04 13:23:44 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-04 13:24:36 --> Undefined variable $data
+in APPPATH\Controllers\Tenants.php on line 84.
+ 1 APPPATH\Controllers\Tenants.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Tenants.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 13:25:04 --> Attempt to read property "personID" on null
+in APPPATH\Views\people\form_basic_info.php on line 19.
+ 1 APPPATH\Views\people\form_basic_info.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "personID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\form_basic_info.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\form_basic_info.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('people/form_basic_info', [], true)
+ 5 APPPATH\Views\tenants\form.php(68): view('people/form_basic_info')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 9 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 13:26:46 --> Attempt to read property "personID" on null
+in APPPATH\Views\people\form_basic_info.php on line 19.
+ 1 APPPATH\Views\people\form_basic_info.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "personID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\form_basic_info.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\form_basic_info.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('people/form_basic_info', [], true)
+ 5 APPPATH\Views\tenants\form.php(68): view('people/form_basic_info')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 9 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 13:27:34 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 13:27:34 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 13:27:52 --> Undefined property: stdClass::$personID
+in APPPATH\Views\people\form_basic_info.php on line 19.
+ 1 APPPATH\Views\people\form_basic_info.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$personID', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\form_basic_info.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\form_basic_info.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('people/form_basic_info', [], true)
+ 5 APPPATH\Views\tenants\form.php(68): view('people/form_basic_info')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 9 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('25')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 13:33:35 --> Undefined variable $tenantID
+in APPPATH\Views\tenants\form.php on line 3.
+ 1 APPPATH\Views\tenants\form.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tenantID', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('25')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:21:26 --> Undefined property: App\Controllers\tenants::$input
+in APPPATH\Controllers\Tenants.php on line 93.
+ 1 APPPATH\Controllers\Tenants.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\tenants::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Tenants.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('25')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:22:20 --> Call to undefined method App\Controllers\tenants::getPost()
+in APPPATH\Controllers\Tenants.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('25')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:25:08 --> Undefined property: App\Controllers\tenants::$input
+in APPPATH\Controllers\Tenants.php on line 95.
+ 1 APPPATH\Controllers\Tenants.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\tenants::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Tenants.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('25')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:26:20 --> Undefined property: App\Controllers\tenants::$input
+in APPPATH\Controllers\Tenants.php on line 111.
+ 1 APPPATH\Controllers\Tenants.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\tenants::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Tenants.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('25')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-04 14:28:48 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tenants.php on line 116.
+ 1 APPPATH\Controllers\Tenants.php(116): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('25')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

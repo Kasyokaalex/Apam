@@ -1,0 +1,116 @@
+CRITICAL - 2023-10-13 05:31:05 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 05:31:05 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 07:15:17 --> Undefined array key "first_name"
+in APPPATH\Controllers\staffs.php on line 96.
+ 1 APPPATH\Controllers\staffs.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\staffs.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-13 07:17:25 --> mysqli_sql_exception: Duplicate entry 'kelvin--' for key 'username_phone_email' in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Apam\app\Controllers\staffs.php(88): CodeIgniter\BaseModel->save(Array, Array, '1')
+#9 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\staffs->save('1')
+#10 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+#11 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-13 07:17:25 --> Duplicate entry 'kelvin--' for key 'username_phone_email'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `staff` (`username`) VALUES (:username:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\staffs.php(88): CodeIgniter\BaseModel->save([...], [...], '1')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->save('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 07:21:51 --> Call to undefined function form_open()
+in APPPATH\Views\staffs\form.php on line 7.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 4 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 07:23:53 --> Attempt to read property "staffID" on null
+in APPPATH\Views\staffs\form.php on line 7.
+ 1 APPPATH\Views\staffs\form.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "staffID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\staffs\\form.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\staffs\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 5 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 07:25:50 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 07:27:19 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 07:27:24 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 08:14:35 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 08:16:17 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 08:24:04 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-13 08:24:08 --> Too few arguments to function App\Controllers\apartments::delete(), 0 passed in C:\xampp\htdocs\Apam\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\apartments.php on line 95.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

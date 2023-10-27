@@ -1,0 +1,2051 @@
+CRITICAL - 2023-10-06 05:39:33 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 05:39:33 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 05:46:04 --> Class "App\Models\Report" not found
+in APPPATH\Controllers\reports.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Reports->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:01:02 --> Class "App\Models\Report" not found
+in APPPATH\Controllers\reports.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\Reports->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:03:01 --> Class "App\Models\Report" not found
+in APPPATH\Controllers\reports.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\Reports->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:03:03 --> Class "App\Models\Report" not found
+in APPPATH\Controllers\reports.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\Reports->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:09:57 --> Class "App\Controllers\Report" not found
+in APPPATH\Controllers\reports.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\Reports->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:10:21 --> Undefined property: App\Controllers\Reports::$load
+in APPPATH\Controllers\reports.php on line 29.
+ 1 APPPATH\Controllers\reports.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:10:40 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\reports\manage.php on line 1.
+ 1 APPPATH\Views\reports\manage.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 1)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(29): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:11:06 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\reports\manage.php on line 57.
+ 1 APPPATH\Views\reports\manage.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(29): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:12:51 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\reports\manage.php on line 75.
+ 1 APPPATH\Views\reports\manage.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 75)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(29): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:13:19 --> Undefined variable $person
+in APPPATH\Controllers\reports.php on line 52.
+ 1 APPPATH\Controllers\reports.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $person', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:17:12 --> Undefined variable $person
+in APPPATH\Controllers\reports.php on line 52.
+ 1 APPPATH\Controllers\reports.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $person', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:17:34 --> Undefined variable $person
+in APPPATH\Controllers\reports.php on line 52.
+ 1 APPPATH\Controllers\reports.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $person', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:19:37 --> Undefined variable $person
+in APPPATH\Controllers\reports.php on line 55.
+ 1 APPPATH\Controllers\reports.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $person', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:19:39 --> Undefined variable $person
+in APPPATH\Controllers\reports.php on line 55.
+ 1 APPPATH\Controllers\reports.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $person', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:22:04 --> Undefined variable $person
+in APPPATH\Controllers\reports.php on line 56.
+ 1 APPPATH\Controllers\reports.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $person', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:22:44 --> Undefined variable $person
+in APPPATH\Controllers\reports.php on line 56.
+ 1 APPPATH\Controllers\reports.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $person', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:23:47 --> Undefined variable $person
+in APPPATH\Controllers\reports.php on line 54.
+ 1 APPPATH\Controllers\reports.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $person', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:25:55 --> Undefined property: App\Controllers\Reports::$db
+in APPPATH\Controllers\reports.php on line 74.
+ 1 APPPATH\Controllers\reports.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$db', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:30:58 --> Undefined property: App\Controllers\Reports::$db
+in APPPATH\Controllers\reports.php on line 74.
+ 1 APPPATH\Controllers\reports.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$db', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:31:01 --> Undefined property: App\Controllers\Reports::$db
+in APPPATH\Controllers\reports.php on line 74.
+ 1 APPPATH\Controllers\reports.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$db', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:31:08 --> Undefined property: App\Controllers\Reports::$db
+in APPPATH\Controllers\reports.php on line 73.
+ 1 APPPATH\Controllers\reports.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$db', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:38:56 --> Undefined variable $apartments
+in APPPATH\Controllers\reports.php on line 82.
+ 1 APPPATH\Controllers\reports.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $apartments', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:40:30 --> Undefined variable $apartments
+in APPPATH\Controllers\reports.php on line 82.
+ 1 APPPATH\Controllers\reports.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $apartments', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:41:22 --> Undefined property: App\Controllers\Reports::$db
+in APPPATH\Controllers\reports.php on line 85.
+ 1 APPPATH\Controllers\reports.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$db', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:47:46 --> Undefined property: stdClass::$tenant_id
+in APPPATH\Controllers\reports.php on line 84.
+ 1 APPPATH\Controllers\reports.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tenant_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:48:32 --> Undefined property: stdClass::$tenant_id
+in APPPATH\Controllers\reports.php on line 84.
+ 1 APPPATH\Controllers\reports.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tenant_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:48:44 --> Undefined property: stdClass::$tenantID
+in APPPATH\Controllers\reports.php on line 84.
+ 1 APPPATH\Controllers\reports.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tenantID', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:49:04 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\Apam\system\Model.php on line 870
+in SYSTEMPATH\Database\BaseBuilder.php on line 1607.
+ 1 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get('people')
+ 2 APPPATH\Controllers\reports.php(84): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:49:49 --> Undefined property: stdClass::$tenant_id
+in APPPATH\Controllers\reports.php on line 84.
+ 1 APPPATH\Controllers\reports.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tenant_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:50:14 --> Undefined property: stdClass::$tenant_id
+in APPPATH\Controllers\reports.php on line 84.
+ 1 APPPATH\Controllers\reports.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tenant_id', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:51:26 --> Undefined property: App\Controllers\Reports::$db
+in APPPATH\Controllers\reports.php on line 88.
+ 1 APPPATH\Controllers\reports.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$db', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 06:55:59 --> Undefined property: App\Controllers\Reports::$db
+in APPPATH\Controllers\reports.php on line 70.
+ 1 APPPATH\Controllers\reports.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$db', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('tenants')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:01:12 --> mysqli_sql_exception: Not unique table/alias: 'people' in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(73): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('tenants')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:01:12 --> Not unique table/alias: 'people'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people`)
+JOIN `tenants` ON `tenants`.`person_id` = `people`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(73): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:08:06 --> mysqli_sql_exception: Not unique table/alias: 'people' in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(73): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:08:06 --> Not unique table/alias: 'people'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people`)
+JOIN `staffs` ON `staffs`.`person_id` = `people`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(73): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:08:10 --> mysqli_sql_exception: Not unique table/alias: 'people' in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(73): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:08:10 --> Not unique table/alias: 'people'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people`)
+JOIN `staffs` ON `staffs`.`person_id` = `people`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(73): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:15:55 --> mysqli_sql_exception: Not unique table/alias: 'people' in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(73): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:15:56 --> Not unique table/alias: 'people'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people`)
+JOIN `staffs` ON `staffs`.`person_id` = `people`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(73): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:28:47 --> mysqli_sql_exception: Not unique table/alias: 'people' in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(73): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:28:47 --> Not unique table/alias: 'people'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people`)
+JOIN `staffs` ON `staffs`.`person_id` = `people`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(73): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:28:53 --> Undefined property: App\Controllers\Reports::$load
+in APPPATH\Controllers\reports.php on line 91.
+ 1 APPPATH\Controllers\reports.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartment_payments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:31:42 --> mysqli_sql_exception: Unknown column 'p2.person_id' in 'on clause' in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(71): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('tenants')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:31:42 --> Unknown column 'p2.person_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `tenants` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(71): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:32:26 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(71): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:32:26 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(71): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:33:42 --> Class "App\Controllers\Staff" not found
+in APPPATH\Controllers\reports.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\Reports->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:33:58 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:33:58 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:34:14 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:34:14 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:34:17 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:34:17 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:34:29 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:34:29 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:35:01 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:35:01 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:35:03 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:35:03 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:35:06 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:35:06 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:35:33 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:35:33 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:35:35 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:35:35 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:35:56 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:35:56 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:39:10 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:39:10 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:44:24 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:44:24 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 07:45:07 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(74): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 07:45:07 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`people`, `people` AS `p1`)
+JOIN `staffs` AS `p2` ON `p2`.`person_id` = `p1`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(74): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:53:34 --> Undefined variable $report_types
+in APPPATH\Views\reports\manage.php on line 47.
+ 1 APPPATH\Views\reports\manage.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $report_types', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(61): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:55:26 --> Undefined variable $report
+in APPPATH\Views\reports\manage.php on line 47.
+ 1 APPPATH\Views\reports\manage.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $report', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(61): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:56:01 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\reports\manage.php on line 47.
+ 1 APPPATH\Views\reports\manage.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(61): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:56:03 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\reports\manage.php on line 47.
+ 1 APPPATH\Views\reports\manage.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(61): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:56:11 --> Undefined variable $report_types
+in APPPATH\Views\reports\manage.php on line 47.
+ 1 APPPATH\Views\reports\manage.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $report_types', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(61): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:58:12 --> Undefined property: App\Controllers\Reports::$load
+in APPPATH\Controllers\reports.php on line 143.
+ 1 APPPATH\Controllers\reports.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 143)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 07:59:24 --> Call to undefined method Config\View::item()
+in APPPATH\Views\reports\people_report.php on line 34.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 4 APPPATH\Controllers\reports.php(143): view('reports/people_report', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:03:05 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Views\reports\people_report.php on line 34.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 3 APPPATH\Controllers\reports.php(143): view('reports/people_report', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:03:44 --> Undefined property: Config\apamSettings::$rnc
+in APPPATH\Views\reports\people_report.php on line 41.
+ 1 APPPATH\Views\reports\people_report.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\apamSettings::$rnc', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(143): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:03:47 --> Undefined property: Config\apamSettings::$rnc
+in APPPATH\Views\reports\people_report.php on line 41.
+ 1 APPPATH\Views\reports\people_report.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\apamSettings::$rnc', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(143): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:04:41 --> Undefined property: App\Controllers\Reports::$load
+in APPPATH\Controllers\reports.php on line 145.
+ 1 APPPATH\Controllers\reports.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 145)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:14:19 --> Undefined property: App\Controllers\Reports::$load
+in APPPATH\Controllers\reports.php on line 145.
+ 1 APPPATH\Controllers\reports.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 145)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:17:30 --> Class "TCPDF" not found
+in APPPATH\Controllers\reports.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:22:58 --> Class "TCPDF" not found
+in APPPATH\Controllers\reports.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:23:17 --> Class "App\Controllers\TCPDF" not found
+in APPPATH\Controllers\reports.php on line 146.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:24:06 --> Class "TCPDF" not found
+in APPPATH\Controllers\reports.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:24:09 --> Class "TCPDF" not found
+in APPPATH\Controllers\reports.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:24:26 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\reports.php on line 13.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('reports/printIt/apartments', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('reports/printIt/apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('reports/printIt/apartments')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:24:45 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\reports.php on line 13.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('reports/printIt/apartments', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('reports/printIt/apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('reports/printIt/apartments')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:24:54 --> Call to undefined method App\Controllers\Reports::library()
+in APPPATH\Controllers\reports.php on line 145.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:25:28 --> Call to undefined method App\Controllers\Reports::library()
+in APPPATH\Controllers\reports.php on line 145.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:27:05 --> Call to undefined method App\Controllers\Reports::library()
+in APPPATH\Controllers\reports.php on line 145.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:32:09 --> Call to undefined method App\Controllers\Reports::library()
+in APPPATH\Controllers\reports.php on line 145.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:33:04 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\reports.php on line 85.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('reports', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('reports')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('reports')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:33:20 --> Undefined variable $type
+in APPPATH\Views\reports\people_report.php on line 48.
+ 1 APPPATH\Views\reports\people_report.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(84): view('reports/people_report')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:33:43 --> Undefined variable $type
+in APPPATH\Views\reports\people_report.php on line 52.
+ 1 APPPATH\Views\reports\people_report.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(84): view('reports/people_report')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:34:02 --> Undefined variable $type
+in APPPATH\Views\reports\people_report.php on line 54.
+ 1 APPPATH\Views\reports\people_report.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(84): view('reports/people_report')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:34:05 --> Undefined variable $type
+in APPPATH\Views\reports\people_report.php on line 54.
+ 1 APPPATH\Views\reports\people_report.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(84): view('reports/people_report')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:34:51 --> Undefined variable $type
+in APPPATH\Views\reports\people_report.php on line 48.
+ 1 APPPATH\Views\reports\people_report.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(84): view('reports/people_report')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:38:57 --> Undefined variable $type
+in APPPATH\Views\reports\people_report.php on line 48.
+ 1 APPPATH\Views\reports\people_report.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(84): view('reports/people_report')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:39:10 --> Call to undefined method App\Controllers\Reports::library()
+in APPPATH\Controllers\reports.php on line 145.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:42:18 --> Undefined variable $type
+in APPPATH\Views\reports\people_report.php on line 48.
+ 1 APPPATH\Views\reports\people_report.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(84): view('reports/people_report')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:43:15 --> Undefined variable $type
+in APPPATH\Views\reports\people_report.php on line 48.
+ 1 APPPATH\Views\reports\people_report.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(84): view('reports/people_report')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:44:22 --> Undefined variable $apartment_data
+in APPPATH\Views\reports\people_report.php on line 123.
+ 1 APPPATH\Views\reports\people_report.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $apartment_data', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 123)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(86): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:44:25 --> Undefined variable $apartment_data
+in APPPATH\Views\reports\people_report.php on line 123.
+ 1 APPPATH\Views\reports\people_report.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $apartment_data', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 123)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(86): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:46:22 --> Undefined variable $apartment_data
+in APPPATH\Views\reports\people_report.php on line 123.
+ 1 APPPATH\Views\reports\people_report.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $apartment_data', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 123)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(86): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:46:41 --> Call to undefined method App\Controllers\Reports::library()
+in APPPATH\Controllers\reports.php on line 148.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:53:56 --> Call to undefined method App\Controllers\Reports::library()
+in APPPATH\Controllers\reports.php on line 151.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 08:55:39 --> Call to undefined method App\Controllers\Reports::library()
+in APPPATH\Controllers\reports.php on line 151.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:02:05 --> Undefined property: App\Controllers\Reports::$load
+in APPPATH\Controllers\reports.php on line 151.
+ 1 APPPATH\Controllers\reports.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:02:54 --> Undefined property: App\Controllers\Reports::$load
+in APPPATH\Controllers\reports.php on line 151.
+ 1 APPPATH\Controllers\reports.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 151)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:17:13 --> Undefined property: App\Controllers\Reports::$load
+in APPPATH\Controllers\reports.php on line 154.
+ 1 APPPATH\Controllers\reports.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:25:19 --> Call to undefined method Dompdf\Dompdf::SetFooter()
+in APPPATH\Controllers\reports.php on line 159.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:25:56 --> Call to undefined method Dompdf\Dompdf::WriteHTML()
+in APPPATH\Controllers\reports.php on line 161.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:26:33 --> Cannot access offset of type string on string
+in FCPATH\vendor\dompdf\dompdf\src\Adapter\CPDF.php on line 928.
+ 1 FCPATH\vendor\dompdf\dompdf\src\Dompdf.php(890): Dompdf\Adapter\CPDF->output('C:\\xampp\\htdocs\\Apam\\/downloads/reports/apartments_231006092633.pdf')
+ 2 APPPATH\Controllers\reports.php(160): Dompdf\Dompdf->output('C:\\xampp\\htdocs\\Apam\\/downloads/reports/apartments_231006092633.pdf', 'F')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:28:23 --> Undefined variable $controller
+in APPPATH\Views\reports\manage.php on line 80.
+ 1 APPPATH\Views\reports\manage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $controller', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(168): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 09:35:22 --> Undefined variable $controller
+in APPPATH\Views\reports\manage.php on line 80.
+ 1 APPPATH\Views\reports\manage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $controller', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(164): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('apartments')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 10:02:25 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 10:02:25 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 10:02:36 --> Undefined property: App\Controllers\Reports::$db
+in APPPATH\Controllers\reports.php on line 81.
+ 1 APPPATH\Controllers\reports.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Reports::$db', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\reports.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 10:08:04 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(89): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 10:08:04 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`staff`, `people`)
+JOIN `staffs` ON `staffs`.`person_id` = `people`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(89): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 10:16:01 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(85): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 10:16:01 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+JOIN `staffs` ON `staffs`.`person_id` = `people`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(85): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-06 10:16:04 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Apam\system\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\reports.php(85): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-06 10:16:04 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+JOIN `staffs` ON `staffs`.`person_id` = `people`.`person_id`', [], false)
+ 2 SYSTEMPATH\Model.php(870): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\reports.php(85): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 10:16:17 --> Undefined variable $data
+in APPPATH\Views\reports\people_report.php on line 77.
+ 1 APPPATH\Views\reports\people_report.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(153): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 10:24:14 --> Undefined variable $data
+in APPPATH\Views\reports\people_report.php on line 77.
+ 1 APPPATH\Views\reports\people_report.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(154): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 10:25:44 --> Undefined variable $data
+in APPPATH\Views\reports\people_report.php on line 77.
+ 1 APPPATH\Views\reports\people_report.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(154): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 10:25:46 --> Undefined variable $data
+in APPPATH\Views\reports\people_report.php on line 77.
+ 1 APPPATH\Views\reports\people_report.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(154): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 10:28:12 --> Undefined variable $data
+in APPPATH\Views\reports\people_report.php on line 77.
+ 1 APPPATH\Views\reports\people_report.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(154): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 10:44:51 --> Undefined variable $people
+in APPPATH\Views\reports\people_report.php on line 77.
+ 1 APPPATH\Views\reports\people_report.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $people', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(154): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 10:45:17 --> syntax error, unexpected token "<"
+in APPPATH\Views\reports\people_report.php on line 79.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 3 APPPATH\Controllers\reports.php(154): view('reports/people_report', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 10:45:38 --> Undefined variable $count
+in APPPATH\Views\reports\people_report.php on line 80.
+ 1 APPPATH\Views\reports\people_report.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(154): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:08:23 --> Undefined variable $data
+in APPPATH\Views\reports\people_report.php on line 77.
+ 1 APPPATH\Views\reports\people_report.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(154): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:10:24 --> Undefined variable $data
+in APPPATH\Views\reports\people_report.php on line 77.
+ 1 APPPATH\Views\reports\people_report.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(154): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:12:49 --> Undefined variable $controller_name
+in APPPATH\Views\reports\manage.php on line 80.
+ 1 APPPATH\Views\reports\manage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $controller_name', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(165): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:12:52 --> Undefined variable $controller_name
+in APPPATH\Views\reports\manage.php on line 80.
+ 1 APPPATH\Views\reports\manage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $controller_name', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(165): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:12:57 --> Undefined variable $controller_name
+in APPPATH\Views\reports\manage.php on line 80.
+ 1 APPPATH\Views\reports\manage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $controller_name', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(165): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:13:17 --> Undefined variable $data
+in APPPATH\Views\reports\people_report.php on line 77.
+ 1 APPPATH\Views\reports\people_report.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\people_report.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/people_report', [], true)
+ 5 APPPATH\Controllers\reports.php(154): view('reports/people_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:14:54 --> Undefined variable $controller_name
+in APPPATH\Views\reports\manage.php on line 80.
+ 1 APPPATH\Views\reports\manage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $controller_name', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(165): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:15:13 --> Undefined variable $controller
+in APPPATH\Views\reports\manage.php on line 80.
+ 1 APPPATH\Views\reports\manage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $controller', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(165): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:15:16 --> Undefined variable $controller
+in APPPATH\Views\reports\manage.php on line 80.
+ 1 APPPATH\Views\reports\manage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $controller', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(165): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:15:18 --> Undefined variable $controller
+in APPPATH\Views\reports\manage.php on line 80.
+ 1 APPPATH\Views\reports\manage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $controller', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(165): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:15:20 --> Undefined variable $controller
+in APPPATH\Views\reports\manage.php on line 80.
+ 1 APPPATH\Views\reports\manage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $controller', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(165): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:15:24 --> Undefined variable $controller
+in APPPATH\Views\reports\manage.php on line 80.
+ 1 APPPATH\Views\reports\manage.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $controller', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php', 80)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\reports\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('reports/manage', [], true)
+ 5 APPPATH\Controllers\reports.php(165): view('reports/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Reports->printIt('staffs')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:18:38 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:19:03 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:19:25 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:19:50 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:22:22 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:23:00 --> Undefined array key "order"
+in APPPATH\Controllers\apartments.php on line 602.
+ 1 APPPATH\Controllers\apartments.php(602): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order"', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\apartments.php', 602)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\apartments->overdues()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\apartments))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:23:21 --> Undefined property: App\Controllers\Expenses::$input
+in APPPATH\Controllers\expenses.php on line 60.
+ 1 APPPATH\Controllers\expenses.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Expenses::$input', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\expenses.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->save('270')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:24:03 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:24:37 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:26:38 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:29:00 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:29:41 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:30:03 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:30:03 --> Undefined variable $person_info
+in APPPATH\Controllers\Tenants.php on line 95.
+ 1 APPPATH\Controllers\Tenants.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $person_info', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Tenants.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:30:03 --> Undefined variable $person_info
+in APPPATH\Controllers\Tenants.php on line 95.
+ 1 APPPATH\Controllers\Tenants.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $person_info', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Tenants.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:32:45 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:33:09 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:37:04 --> Allowed memory size of 1073741824 bytes exhausted (tried to allocate 16384 bytes)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-06 11:38:03 --> Undefined variable $data
+in APPPATH\Controllers\Tenants.php on line 82.
+ 1 APPPATH\Controllers\Tenants.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Tenants.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:40:06 --> Undefined property: stdClass::$personID
+in APPPATH\Views\people\form_basic_info.php on line 19.
+ 1 APPPATH\Views\people\form_basic_info.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$personID', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\form_basic_info.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\form_basic_info.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('people/form_basic_info', [], true)
+ 5 APPPATH\Views\tenants\form.php(68): view('people/form_basic_info')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 9 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:42:48 --> Undefined property: stdClass::$email
+in APPPATH\Views\people\form_basic_info.php on line 63.
+ 1 APPPATH\Views\people\form_basic_info.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$email', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\form_basic_info.php', 63)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\form_basic_info.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('people/form_basic_info', [], true)
+ 5 APPPATH\Views\tenants\form.php(68): view('people/form_basic_info')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 9 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:43:28 --> Undefined property: stdClass::$employer
+in APPPATH\Views\people\form_basic_info.php on line 140.
+ 1 APPPATH\Views\people\form_basic_info.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$employer', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\form_basic_info.php', 140)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\people\\form_basic_info.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('people/form_basic_info', [], true)
+ 5 APPPATH\Views\tenants\form.php(68): view('people/form_basic_info')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 9 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('1')
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:47:28 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tenants.php on line 116.
+ 1 APPPATH\Controllers\Tenants.php(116): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:48:41 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tenants.php on line 116.
+ 1 APPPATH\Controllers\Tenants.php(116): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:54:34 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tenants.php on line 116.
+ 1 APPPATH\Controllers\Tenants.php(116): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 11:54:38 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tenants.php on line 116.
+ 1 APPPATH\Controllers\Tenants.php(116): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:17:43 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tenants.php on line 116.
+ 1 APPPATH\Controllers\Tenants.php(116): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:18:43 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tenants.php on line 115.
+ 1 APPPATH\Controllers\Tenants.php(115): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:22:51 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tenants.php on line 115.
+ 1 APPPATH\Controllers\Tenants.php(115): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:35:10 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Tenants.php(108): CodeIgniter\BaseModel->save([...], '1')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:35:36 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Tenants.php(108): CodeIgniter\BaseModel->save([...], '1')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:37:53 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Tenants.php(109): CodeIgniter\BaseModel->save([...], '1')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:38:09 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:40:02 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:40:08 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:55:21 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:55:44 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Tenants.php(123): CodeIgniter\BaseModel->save([...], [...], '1')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:55:54 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 12:58:34 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:01:27 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:01:32 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:01:37 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('10')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:01:54 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:01:54 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:15:25 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:15:28 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:15:36 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('10')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:15:45 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:22:18 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:27:38 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:27:40 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:27:48 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:34:38 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:34:41 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:35:37 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:35:41 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:35:49 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:42:08 --> Undefined variable $tenant_info
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tenant_info', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:42:34 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:46:05 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 88.
+ 1 APPPATH\Views\tenants\form.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:46:08 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 88.
+ 1 APPPATH\Views\tenants\form.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:47:13 --> Attempt to read property "firstName" on null
+in APPPATH\Views\tenants\form.php on line 100.
+ 1 APPPATH\Views\tenants\form.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstName" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 100)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:47:16 --> Attempt to read property "firstName" on null
+in APPPATH\Views\tenants\form.php on line 100.
+ 1 APPPATH\Views\tenants\form.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstName" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 100)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:48:48 --> Attempt to read property "firstName" on null
+in APPPATH\Views\tenants\form.php on line 96.
+ 1 APPPATH\Views\tenants\form.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstName" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 96)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:49:22 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Tenants.php on line 116.
+ 1 APPPATH\Controllers\Tenants.php(116): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:51:34 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Tenants.php(177): CodeIgniter\BaseModel->save([...], [...], '1')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 13:52:57 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Tenants.php(116): CodeIgniter\BaseModel->save([...], [...], '1')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->save('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-06 14:06:42 --> Attempt to read property "tenantID" on null
+in APPPATH\Views\tenants\form.php on line 85.
+ 1 APPPATH\Views\tenants\form.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tenantID" on null', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\tenants\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tenants/form', [], true)
+ 5 APPPATH\Controllers\Tenants.php(84): view('tenants/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tenants->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tenants))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

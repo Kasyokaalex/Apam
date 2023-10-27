@@ -1,0 +1,1343 @@
+CRITICAL - 2023-10-02 06:10:07 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 06:10:07 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 06:10:16 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 06:10:16 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 06:11:14 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 06:51:59 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 06:51:59 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:20:45 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:20:45 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:37:17 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:40:36 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:40:37 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:40:56 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:40:56 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:41:19 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:41:19 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:41:25 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:41:25 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:41:37 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:41:37 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:41:56 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:41:56 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:42:38 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:42:39 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:42:46 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:42:46 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:43:36 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:43:37 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:44:01 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:44:01 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:44:11 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:44:11 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:44:33 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:44:33 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:44:46 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 07:44:46 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:07:38 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:07:39 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:07:43 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:07:43 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:07:46 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:07:46 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:09:56 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:09:56 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:10:03 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:10:03 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:10:54 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:10:54 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:11:00 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:11:00 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:11:07 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:11:07 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:11:40 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:11:40 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:13:08 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:13:08 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:13:13 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:13:14 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:13:32 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:13:32 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:15:18 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:15:18 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:15:31 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:15:31 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:15:36 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:15:36 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:15:42 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:15:42 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:16:05 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:16:05 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:17:28 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:17:28 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:18:06 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:18:06 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:19:08 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:19:08 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:20:46 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:20:46 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:21:40 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:21:40 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:21:46 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:21:46 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:22:41 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:22:42 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:28:07 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:28:07 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:28:14 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:32:05 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:32:05 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:32:29 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:34:58 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:34:59 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:36:37 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:36:37 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:37:45 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:37:45 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:41:51 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:41:51 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:42:50 --> Cannot call constructor
+in APPPATH\Controllers\config.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Config->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:43:25 --> Undefined property: App\Controllers\Config::$load
+in APPPATH\Controllers\config.php on line 13.
+ 1 APPPATH\Controllers\config.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Config::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\config.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Config->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:46:24 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\config.php on line 1.
+ 1 APPPATH\Views\config.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 1)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(16): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:46:27 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\config.php on line 1.
+ 1 APPPATH\Views\config.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 1)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(16): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:47:09 --> Call to undefined function form_open()
+in APPPATH\Views\config.php on line 3.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:47:31 --> Call to undefined function form_open()
+in APPPATH\Views\config.php on line 3.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:49:24 --> Call to undefined function form_label()
+in APPPATH\Views\config.php on line 59.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:51:03 --> Call to undefined method Config\View::item()
+in APPPATH\Views\config.php on line 61.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 08:57:43 --> Call to undefined function form_label()
+in APPPATH\Views\config.php on line 80.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 09:10:34 --> Call to undefined function form_input()
+in APPPATH\Views\config.php on line 86.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 09:11:52 --> Call to undefined function form_label()
+in APPPATH\Views\config.php on line 93.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 09:13:38 --> Call to undefined function form_label()
+in APPPATH\Views\config.php on line 92.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 09:49:24 --> Call to undefined function form_input()
+in APPPATH\Views\config.php on line 108.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 09:49:47 --> Call to undefined function form_dropdown()
+in APPPATH\Views\config.php on line 135.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 09:51:30 --> Call to undefined function form_dropdown()
+in APPPATH\Views\config.php on line 134.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 09:59:01 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\config.php on line 137.
+ 1 APPPATH\Views\config.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 137)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(16): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 10:00:57 --> Call to undefined function form_label()
+in APPPATH\Views\config.php on line 152.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 10:01:43 --> Call to undefined function form_dropdown()
+in APPPATH\Views\config.php on line 154.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(16): view('config', [])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 10:21:20 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 10:21:20 --> Cannot call constructor
+in APPPATH\Controllers\plugins.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Plugins->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 11:55:01 --> file_get_contents(backup_logs.json): Failed to open stream: No such file or directory
+in APPPATH\Views\config.php on line 315.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(backup_logs.json): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 315)
+ 2 APPPATH\Views\config.php(315): file_get_contents('backup_logs.json')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 6 APPPATH\Controllers\config.php(16): view('config', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:04:11 --> file_get_contents(backup_logs.json): Failed to open stream: No such file or directory
+in APPPATH\Views\config.php on line 315.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(backup_logs.json): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 315)
+ 2 APPPATH\Views\config.php(315): file_get_contents('backup_logs.json')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 6 APPPATH\Controllers\config.php(16): view('config', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:10:57 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(16): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:16:05 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(20): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:16:08 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(20): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:16:42 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(20): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:17:19 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(21): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:19:11 --> Cannot call constructor
+in APPPATH\Controllers\config.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Config->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:19:21 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(22): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:21:16 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(23): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:21:19 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(23): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:21:56 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(23): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:22:24 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(25): view('config', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:22:29 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(25): view('config', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:24:01 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(23): view('config')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:24:04 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(23): view('config')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:24:07 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(23): view('config')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:24:36 --> Undefined variable $staff
+in APPPATH\Views\config.php on line 335.
+ 1 APPPATH\Views\config.php(335): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 335)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(23): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:38:15 --> Call to undefined method App\Models\Staff::get_staff_data
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\config.php(16): CodeIgniter\Model->__call('get_staff_data', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:38:32 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(22): view('config', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:53:33 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(22): view('config', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:53:36 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(22): view('config', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:54:59 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(22): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 12:55:01 --> Undefined property: CodeIgniter\View\View::$staff
+in APPPATH\Views\config.php on line 332.
+ 1 APPPATH\Views\config.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 332)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(22): view('config', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:03:23 --> Too few arguments to function App\Models\Staff::get_info(), 0 passed in C:\xampp\htdocs\Apam\app\Controllers\config.php on line 21 and exactly 1 expected
+in APPPATH\Models\Staff.php on line 50.
+ 1 APPPATH\Controllers\config.php(21): App\Models\Staff->get_info()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:05:21 --> Undefined variable $staff_id
+in APPPATH\Models\Staff.php on line 54.
+ 1 APPPATH\Models\Staff.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $staff_id', 'C:\\xampp\\htdocs\\Apam\\app\\Models\\Staff.php', 54)
+ 2 APPPATH\Controllers\config.php(21): App\Models\Staff->get_info()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:05:27 --> Too few arguments to function App\Models\Staff::get_info(), 0 passed in C:\xampp\htdocs\Apam\app\Controllers\config.php on line 21 and exactly 1 expected
+in APPPATH\Models\Staff.php on line 50.
+ 1 APPPATH\Controllers\config.php(21): App\Models\Staff->get_info()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 13:08:55 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Apam\app\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\config.php(24): App\Models\Staff->get_info(123)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Config->index()
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-02 13:08:55 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staffs`
+JOIN `people` ON `people`.`person_id` = `staffs`.`person_id`
+WHERE `staffs`.`person_id` = :staffs.person_id:', [...], false)
+ 2 APPPATH\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\config.php(24): App\Models\Staff->get_info(123)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 13:12:31 --> mysqli_sql_exception: Unknown column 'staff.person_id' in 'where clause' in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Apam\app\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\config.php(24): App\Models\Staff->get_info(123)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Config->index()
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-02 13:12:31 --> Unknown column 'staff.person_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+JOIN `people` ON `people`.`person_id` = `staff`.`person_id`
+WHERE `staff`.`person_id` = :staff.person_id:', [...], false)
+ 2 APPPATH\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\config.php(24): App\Models\Staff->get_info(123)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 13:12:34 --> mysqli_sql_exception: Unknown column 'staff.person_id' in 'where clause' in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Apam\app\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\config.php(24): App\Models\Staff->get_info(123)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Config->index()
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-02 13:12:34 --> Unknown column 'staff.person_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+JOIN `people` ON `people`.`person_id` = `staff`.`person_id`
+WHERE `staff`.`person_id` = :staff.person_id:', [...], false)
+ 2 APPPATH\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\config.php(24): App\Models\Staff->get_info(123)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 13:12:58 --> mysqli_sql_exception: Unknown column 'staff.person_id' in 'where clause' in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Apam\app\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\config.php(24): App\Models\Staff->get_info(123)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Config->index()
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-02 13:12:58 --> Unknown column 'staff.person_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+JOIN `people` ON `people`.`person_id` = `staff`.`staff_id`
+WHERE `staff`.`person_id` = :staff.person_id:', [...], false)
+ 2 APPPATH\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\config.php(24): App\Models\Staff->get_info(123)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:13:22 --> Too few arguments to function CodeIgniter\Database\BaseConnection::getFieldNames(), 0 passed in C:\xampp\htdocs\Apam\system\Model.php on line 867 and exactly 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 1466.
+ 1 SYSTEMPATH\Model.php(867): CodeIgniter\Database\BaseConnection->getFieldNames()
+ 2 APPPATH\Models\Staff.php(64): CodeIgniter\Model->__call('getFieldNames', [])
+ 3 APPPATH\Controllers\config.php(24): App\Models\Staff->get_info(123)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:22:08 --> Too few arguments to function CodeIgniter\Database\BaseConnection::getFieldNames(), 0 passed in C:\xampp\htdocs\Apam\system\Model.php on line 866 and exactly 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 1466.
+ 1 SYSTEMPATH\Model.php(866): CodeIgniter\Database\BaseConnection->getFieldNames()
+ 2 APPPATH\Models\Staff.php(64): CodeIgniter\Model->__call('getFieldNames', [])
+ 3 APPPATH\Controllers\config.php(24): App\Models\Staff->get_info(123)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:22:11 --> Too few arguments to function CodeIgniter\Database\BaseConnection::getFieldNames(), 0 passed in C:\xampp\htdocs\Apam\system\Model.php on line 866 and exactly 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 1466.
+ 1 SYSTEMPATH\Model.php(866): CodeIgniter\Database\BaseConnection->getFieldNames()
+ 2 APPPATH\Models\Staff.php(64): CodeIgniter\Model->__call('getFieldNames', [])
+ 3 APPPATH\Controllers\config.php(24): App\Models\Staff->get_info(123)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:22:45 --> Too few arguments to function CodeIgniter\Database\BaseConnection::getFieldNames(), 0 passed in C:\xampp\htdocs\Apam\system\Model.php on line 866 and exactly 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 1466.
+ 1 SYSTEMPATH\Model.php(866): CodeIgniter\Database\BaseConnection->getFieldNames()
+ 2 APPPATH\Models\Staff.php(64): CodeIgniter\Model->__call('getFieldNames', [])
+ 3 APPPATH\Controllers\config.php(24): App\Models\Staff->get_info(123)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 13:23:02 --> mysqli_sql_exception: Table 'apam.staffs' doesn't exist in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Apam\app\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\config.php(24): App\Models\Staff->get_info(123)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Config->index()
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-02 13:23:02 --> Table 'apam.staffs' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staffs`
+JOIN `people` ON `people`.`person_id` = `staffs`.`person_id`
+WHERE `staffs`.`person_id` = :staffs.person_id:', [...], false)
+ 2 APPPATH\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\config.php(24): App\Models\Staff->get_info(123)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 13:23:11 --> mysqli_sql_exception: Unknown column 'staffs.person_id' in 'where clause' in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Apam\app\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\config.php(24): App\Models\Staff->get_info(123)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Config->index()
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-02 13:23:11 --> Unknown column 'staffs.person_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+JOIN `people` ON `people`.`person_id` = `staffs`.`person_id`
+WHERE `staffs`.`person_id` = :staffs.person_id:', [...], false)
+ 2 APPPATH\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\config.php(24): App\Models\Staff->get_info(123)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-02 13:23:46 --> mysqli_sql_exception: Unknown column 'staffs.staff_id' in 'where clause' in C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Apam\app\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Apam\app\Controllers\config.php(24): App\Models\Staff->get_info(123)
+#6 C:\xampp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Config->index()
+#7 C:\xampp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+#8 C:\xampp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-02 13:23:46 --> Unknown column 'staffs.staff_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `staff`
+JOIN `people` ON `people`.`person_id` = `staffs`.`staff_id`
+WHERE `staffs`.`staff_id` = :staffs.staff_id:', [...], false)
+ 2 APPPATH\Models\Staff.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\config.php(24): App\Models\Staff->get_info(123)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:23:58 --> Too few arguments to function CodeIgniter\Database\BaseConnection::getFieldNames(), 0 passed in C:\xampp\htdocs\Apam\system\Model.php on line 866 and exactly 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 1466.
+ 1 SYSTEMPATH\Model.php(866): CodeIgniter\Database\BaseConnection->getFieldNames()
+ 2 APPPATH\Models\Staff.php(64): CodeIgniter\Model->__call('getFieldNames', [])
+ 3 APPPATH\Controllers\config.php(24): App\Models\Staff->get_info(123)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:24:24 --> Call to undefined method App\Models\Staff::get_info
+in SYSTEMPATH\Model.php on line 872.
+ 1 APPPATH\Controllers\config.php(24): CodeIgniter\Model->__call('get_info', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:24:57 --> Undefined variable $backup_by
+in APPPATH\Views\config.php on line 349.
+ 1 APPPATH\Views\config.php(349): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $backup_by', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 349)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(26): view('config')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:26:21 --> Undefined variable $i
+in APPPATH\Views\config.php on line 355.
+ 1 APPPATH\Views\config.php(355): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php', 355)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Apam\\app\\Views\\config.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 5 APPPATH\Controllers\config.php(26): view('config')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:26:38 --> Unclosed '{' on line 330
+in APPPATH\Views\config.php on line 446.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 3 APPPATH\Controllers\config.php(26): view('config')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:27:07 --> Call to undefined function form_submit()
+in APPPATH\Views\config.php on line 381.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(26): view('config')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:30:16 --> Call to undefined function form_close()
+in APPPATH\Views\config.php on line 384.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(26): view('config')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-02 13:33:11 --> Call to undefined function form_close()
+in APPPATH\Views\config.php on line 388.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('config', [], true)
+ 4 APPPATH\Controllers\config.php(26): view('config')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Config->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Config))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

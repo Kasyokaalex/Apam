@@ -1,0 +1,1502 @@
+CRITICAL - 2023-10-23 09:55:13 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-23 09:55:13 --> Uncaught Error: Class "Locale" not found in C:\xamppp\htdocs\Apam\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Helpers\number_helper.php(55): format_number(6.0, 2, NULL, Array)
+#1 C:\xamppp\htdocs\Apam\system\Debug\BaseExceptionHandler.php(145): number_to_size(6.0, 2)
+#2 C:\xamppp\htdocs\Apam\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\xamppp\htdocs\Apam\system\Debug\BaseExceptionHandler.php(241): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\Apam\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xamppp\htdocs\Apam\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\Apam\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xamppp\htdocs\Apam\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-23 09:55:21 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-10-23 09:55:21 --> Uncaught Error: Class "Locale" not found in C:\xamppp\htdocs\Apam\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Helpers\number_helper.php(55): format_number(6.0, 2, NULL, Array)
+#1 C:\xamppp\htdocs\Apam\system\Debug\BaseExceptionHandler.php(145): number_to_size(6.0, 2)
+#2 C:\xamppp\htdocs\Apam\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\xamppp\htdocs\Apam\system\Debug\BaseExceptionHandler.php(241): include('C:\\xamppp\\htdoc...')
+#4 C:\xamppp\htdocs\Apam\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xamppp\htdocs\Apam\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\xamppp\\htdoc...')
+#6 C:\xamppp\htdocs\Apam\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xamppp\htdocs\Apam\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-10-23 07:59:02 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'apam', 3306, '', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#4 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#3 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#5 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 07:59:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'apam'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID`
+FROM `staff`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 07:59:10 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'apam', 3306, '', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#4 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#3 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#5 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 07:59:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'apam'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID`
+FROM `staff`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 07:59:11 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'apam', 3306, '', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#4 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#3 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#5 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 07:59:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'apam'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID`
+FROM `staff`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 07:59:11 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'apam', 3306, '', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#4 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#3 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#5 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 07:59:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'apam'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID`
+FROM `staff`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 07:59:26 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'apam', 3306, '', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#4 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#3 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#5 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 07:59:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'apam'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID`
+FROM `staff`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:00:17 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'apam', 3306, '', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#4 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#3 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#5 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 08:00:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'apam'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID`
+FROM `staff`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:00:39 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'apam', 3306, '', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#4 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#3 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#5 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 08:00:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'apam'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID`
+FROM `staff`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:00:42 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'apam', 3306, '', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#4 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admins', 'admin')
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#3 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admins', 'admin')
+#5 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 08:00:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'apam'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID`
+FROM `staff`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(57): App\Models\Staff->Authenticate('admins', 'admin')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:00:46 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'apam', 3306, '', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#4 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'apam' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID...', Array, false)
+#3 C:\xamppp\htdocs\Apam\app\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xamppp\htdocs\Apam\app\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+#5 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+#6 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-23 08:00:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'apam'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `staffID`
+FROM `staff`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\Staff.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(57): App\Models\Staff->Authenticate('admin', 'admin')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:23:38 --> mysqli_sql_exception: Table 'apam.settings' doesn't exist in engine in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\Apam\app\Models\Setting.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\Apam\system\Config\BaseConfig.php(229): App\Models\Setting::apamSettings()
+#8 C:\xamppp\htdocs\Apam\system\Config\BaseConfig.php(90): CodeIgniter\Config\BaseConfig->registerProperties()
+#9 C:\xamppp\htdocs\Apam\system\Config\Factories.php(215): CodeIgniter\Config\BaseConfig->__construct()
+#10 C:\xamppp\htdocs\Apam\system\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('config', 'Config\\apamSett...', Array)
+#11 C:\xamppp\htdocs\Apam\system\Common.php(217): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#12 C:\xamppp\htdocs\Apam\app\Views\partial\header.php(7): config('apamSettings')
+#13 C:\xamppp\htdocs\Apam\system\View\View.php(226): include('C:\\xamppp\\htdoc...')
+#14 C:\xamppp\htdocs\Apam\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#15 C:\xamppp\htdocs\Apam\system\Common.php(1188): CodeIgniter\View\View->render('partial/header', Array, true)
+#16 C:\xamppp\htdocs\Apam\app\Views\home.php(1): view('partial/header')
+#17 C:\xamppp\htdocs\Apam\system\View\View.php(226): include('C:\\xamppp\\htdoc...')
+#18 C:\xamppp\htdocs\Apam\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#19 C:\xamppp\htdocs\Apam\system\Common.php(1188): CodeIgniter\View\View->render('home', Array, true)
+#20 C:\xamppp\htdocs\Apam\app\Controllers\Home.php(134): view('home')
+#21 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#22 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#23 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#24 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#25 {main}
+CRITICAL - 2023-10-23 08:23:39 --> Table 'apam.settings' doesn't exist in engine
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Setting.php(20): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\Config\BaseConfig.php(229): App\Models\Setting::apamSettings()
+ 6 SYSTEMPATH\Config\BaseConfig.php(90): CodeIgniter\Config\BaseConfig->registerProperties()
+ 7 SYSTEMPATH\Config\Factories.php(215): CodeIgniter\Config\BaseConfig->__construct()
+ 8 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('config', 'Config\\apamSettings', [])
+ 9 SYSTEMPATH\Common.php(217): CodeIgniter\Config\Factories::__callStatic('config', [])
+10 APPPATH\Views\partial\header.php(7): config('apamSettings')
+11 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\partial\\header.php')
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+13 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('partial/header', [], true)
+14 APPPATH\Views\home.php(1): view('partial/header')
+15 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\home.php')
+16 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+17 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home', [], true)
+18 APPPATH\Controllers\Home.php(134): view('home')
+19 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+20 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+21 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+22 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:24:10 --> mysqli_sql_exception: Table 'apam.settings' doesn't exist in engine in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\Apam\app\Models\Setting.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\Apam\system\Config\BaseConfig.php(229): App\Models\Setting::apamSettings()
+#8 C:\xamppp\htdocs\Apam\system\Config\BaseConfig.php(90): CodeIgniter\Config\BaseConfig->registerProperties()
+#9 C:\xamppp\htdocs\Apam\system\Config\Factories.php(215): CodeIgniter\Config\BaseConfig->__construct()
+#10 C:\xamppp\htdocs\Apam\system\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('config', 'Config\\apamSett...', Array)
+#11 C:\xamppp\htdocs\Apam\system\Common.php(217): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#12 C:\xamppp\htdocs\Apam\app\Views\partial\header.php(7): config('apamSettings')
+#13 C:\xamppp\htdocs\Apam\system\View\View.php(226): include('C:\\xamppp\\htdoc...')
+#14 C:\xamppp\htdocs\Apam\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#15 C:\xamppp\htdocs\Apam\system\Common.php(1188): CodeIgniter\View\View->render('partial/header', Array, true)
+#16 C:\xamppp\htdocs\Apam\app\Views\home.php(1): view('partial/header')
+#17 C:\xamppp\htdocs\Apam\system\View\View.php(226): include('C:\\xamppp\\htdoc...')
+#18 C:\xamppp\htdocs\Apam\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#19 C:\xamppp\htdocs\Apam\system\Common.php(1188): CodeIgniter\View\View->render('home', Array, true)
+#20 C:\xamppp\htdocs\Apam\app\Controllers\Home.php(134): view('home')
+#21 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#22 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#23 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#24 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#25 {main}
+CRITICAL - 2023-10-23 08:24:10 --> Table 'apam.settings' doesn't exist in engine
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Setting.php(20): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\Config\BaseConfig.php(229): App\Models\Setting::apamSettings()
+ 6 SYSTEMPATH\Config\BaseConfig.php(90): CodeIgniter\Config\BaseConfig->registerProperties()
+ 7 SYSTEMPATH\Config\Factories.php(215): CodeIgniter\Config\BaseConfig->__construct()
+ 8 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('config', 'Config\\apamSettings', [])
+ 9 SYSTEMPATH\Common.php(217): CodeIgniter\Config\Factories::__callStatic('config', [])
+10 APPPATH\Views\partial\header.php(7): config('apamSettings')
+11 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\partial\\header.php')
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+13 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('partial/header', [], true)
+14 APPPATH\Views\home.php(1): view('partial/header')
+15 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\home.php')
+16 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+17 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('home', [], true)
+18 APPPATH\Controllers\Home.php(134): view('home')
+19 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+20 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+21 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+22 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:24:24 --> mysqli_sql_exception: Table 'apam.settings' doesn't exist in engine in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\Apam\app\Models\Setting.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\Apam\system\Config\BaseConfig.php(229): App\Models\Setting::apamSettings()
+#8 C:\xamppp\htdocs\Apam\system\Config\BaseConfig.php(90): CodeIgniter\Config\BaseConfig->registerProperties()
+#9 C:\xamppp\htdocs\Apam\system\Config\Factories.php(215): CodeIgniter\Config\BaseConfig->__construct()
+#10 C:\xamppp\htdocs\Apam\system\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('config', 'Config\\apamSett...', Array)
+#11 C:\xamppp\htdocs\Apam\system\Common.php(217): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#12 C:\xamppp\htdocs\Apam\app\Views\partial\header.php(7): config('apamSettings')
+#13 C:\xamppp\htdocs\Apam\system\View\View.php(226): include('C:\\xamppp\\htdoc...')
+#14 C:\xamppp\htdocs\Apam\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#15 C:\xamppp\htdocs\Apam\system\Common.php(1188): CodeIgniter\View\View->render('partial/header', Array, true)
+#16 C:\xamppp\htdocs\Apam\app\Views\expenses\manage.php(1): view('partial/header')
+#17 C:\xamppp\htdocs\Apam\system\View\View.php(226): include('C:\\xamppp\\htdoc...')
+#18 C:\xamppp\htdocs\Apam\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#19 C:\xamppp\htdocs\Apam\system\Common.php(1188): CodeIgniter\View\View->render('expenses/manage', Array, true)
+#20 C:\xamppp\htdocs\Apam\app\Controllers\expenses.php(26): view('expenses/manage', Array)
+#21 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Expenses->index()
+#22 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+#23 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#24 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#25 {main}
+CRITICAL - 2023-10-23 08:24:24 --> Table 'apam.settings' doesn't exist in engine
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Setting.php(20): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\Config\BaseConfig.php(229): App\Models\Setting::apamSettings()
+ 6 SYSTEMPATH\Config\BaseConfig.php(90): CodeIgniter\Config\BaseConfig->registerProperties()
+ 7 SYSTEMPATH\Config\Factories.php(215): CodeIgniter\Config\BaseConfig->__construct()
+ 8 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('config', 'Config\\apamSettings', [])
+ 9 SYSTEMPATH\Common.php(217): CodeIgniter\Config\Factories::__callStatic('config', [])
+10 APPPATH\Views\partial\header.php(7): config('apamSettings')
+11 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\partial\\header.php')
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+13 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('partial/header', [], true)
+14 APPPATH\Views\expenses\manage.php(1): view('partial/header')
+15 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\manage.php')
+16 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+17 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/manage', [], true)
+18 APPPATH\Controllers\expenses.php(26): view('expenses/manage', [...])
+19 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->index()
+20 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+21 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+22 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:24:42 --> mysqli_sql_exception: Table 'apam.settings' doesn't exist in engine in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\Apam\app\Models\Setting.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\Apam\system\Config\BaseConfig.php(229): App\Models\Setting::apamSettings()
+#8 C:\xamppp\htdocs\Apam\system\Config\BaseConfig.php(90): CodeIgniter\Config\BaseConfig->registerProperties()
+#9 C:\xamppp\htdocs\Apam\system\Config\Factories.php(215): CodeIgniter\Config\BaseConfig->__construct()
+#10 C:\xamppp\htdocs\Apam\system\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('config', 'Config\\apamSett...', Array)
+#11 C:\xamppp\htdocs\Apam\system\Common.php(217): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#12 C:\xamppp\htdocs\Apam\app\Views\partial\header.php(7): config('apamSettings')
+#13 C:\xamppp\htdocs\Apam\system\View\View.php(226): include('C:\\xamppp\\htdoc...')
+#14 C:\xamppp\htdocs\Apam\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#15 C:\xamppp\htdocs\Apam\system\Common.php(1188): CodeIgniter\View\View->render('partial/header', Array, true)
+#16 C:\xamppp\htdocs\Apam\app\Views\expenses\manage.php(1): view('partial/header')
+#17 C:\xamppp\htdocs\Apam\system\View\View.php(226): include('C:\\xamppp\\htdoc...')
+#18 C:\xamppp\htdocs\Apam\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#19 C:\xamppp\htdocs\Apam\system\Common.php(1188): CodeIgniter\View\View->render('expenses/manage', Array, true)
+#20 C:\xamppp\htdocs\Apam\app\Controllers\expenses.php(26): view('expenses/manage', Array)
+#21 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Expenses->index()
+#22 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+#23 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#24 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#25 {main}
+CRITICAL - 2023-10-23 08:24:42 --> Table 'apam.settings' doesn't exist in engine
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `settings`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\Setting.php(20): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\Config\BaseConfig.php(229): App\Models\Setting::apamSettings()
+ 6 SYSTEMPATH\Config\BaseConfig.php(90): CodeIgniter\Config\BaseConfig->registerProperties()
+ 7 SYSTEMPATH\Config\Factories.php(215): CodeIgniter\Config\BaseConfig->__construct()
+ 8 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('config', 'Config\\apamSettings', [])
+ 9 SYSTEMPATH\Common.php(217): CodeIgniter\Config\Factories::__callStatic('config', [])
+10 APPPATH\Views\partial\header.php(7): config('apamSettings')
+11 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\partial\\header.php')
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+13 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('partial/header', [], true)
+14 APPPATH\Views\expenses\manage.php(1): view('partial/header')
+15 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\manage.php')
+16 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+17 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/manage', [], true)
+18 APPPATH\Controllers\expenses.php(26): view('expenses/manage', [...])
+19 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->index()
+20 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+21 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+22 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:42:57 --> mysqli_sql_exception: Column 'category' cannot be null in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ex...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\expenses.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 08:42:57 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `expenses` (`category`, `description`, `amount`, `date`) VALUES (:category:, :description:, :amount:, :date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\expenses.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:42:59 --> mysqli_sql_exception: Column 'category' cannot be null in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ex...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\expenses.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 08:42:59 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `expenses` (`category`, `description`, `amount`, `date`) VALUES (:category:, :description:, :amount:, :date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\expenses.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:43:00 --> mysqli_sql_exception: Column 'category' cannot be null in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ex...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\expenses.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 08:43:00 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `expenses` (`category`, `description`, `amount`, `date`) VALUES (:category:, :description:, :amount:, :date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\expenses.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:44:47 --> mysqli_sql_exception: Column 'category' cannot be null in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ex...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\expenses.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 08:44:47 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `expenses` (`category`, `description`, `amount`, `date`) VALUES (:category:, :description:, :amount:, :date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\expenses.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:44:48 --> mysqli_sql_exception: Column 'category' cannot be null in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ex...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\expenses.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 08:44:48 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `expenses` (`category`, `description`, `amount`, `date`) VALUES (:category:, :description:, :amount:, :date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\expenses.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 08:57:49 --> mysqli_sql_exception: Column 'category' cannot be null in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ex...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\expenses.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 08:57:49 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `expenses` (`category`, `description`, `amount`, `date`) VALUES (:category:, :description:, :amount:, :date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\expenses.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 09:20:52 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 09:20:52 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 09:28:16 --> mysqli_sql_exception: Column 'category' cannot be null in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ex...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ex...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ex...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ex...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\expenses.php(61): CodeIgniter\BaseModel->save(Array)
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 09:28:16 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `expenses` (`category`, `description`, `amount`, `date`) VALUES (:category:, :description:, :amount:, :date:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\expenses.php(61): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 09:54:14 --> Attempt to read property "staffID" on null
+in APPPATH\Views\staffs\form.php on line 5.
+ 1 APPPATH\Views\staffs\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "staffID" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 5 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 09:54:44 --> Attempt to read property "staffID" on null
+in APPPATH\Views\staffs\form.php on line 5.
+ 1 APPPATH\Views\staffs\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "staffID" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 5 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 10:10:24 --> Attempt to read property "staffID" on null
+in APPPATH\Views\staffs\form.php on line 7.
+ 1 APPPATH\Views\staffs\form.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "staffID" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 5 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 10:13:25 --> Attempt to read property "staffID" on null
+in APPPATH\Views\staffs\form.php on line 7.
+ 1 APPPATH\Views\staffs\form.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "staffID" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 5 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 10:13:32 --> Attempt to read property "staffID" on null
+in APPPATH\Views\staffs\form.php on line 7.
+ 1 APPPATH\Views\staffs\form.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "staffID" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 5 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 10:13:43 --> Attempt to read property "staffID" on null
+in APPPATH\Views\staffs\form.php on line 7.
+ 1 APPPATH\Views\staffs\form.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "staffID" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 5 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 10:14:25 --> Attempt to read property "staffID" on null
+in APPPATH\Views\staffs\form.php on line 7.
+ 1 APPPATH\Views\staffs\form.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "staffID" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 5 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 10:14:31 --> Attempt to read property "staffID" on null
+in APPPATH\Views\staffs\form.php on line 7.
+ 1 APPPATH\Views\staffs\form.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "staffID" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 5 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 10:14:54 --> Attempt to read property "username" on null
+in APPPATH\Views\staffs\form.php on line 29.
+ 1 APPPATH\Views\staffs\form.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 5 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 10:18:01 --> Attempt to read property "staffID" on null
+in APPPATH\Views\staffs\form.php on line 35.
+ 1 APPPATH\Views\staffs\form.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "staffID" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 5 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 10:26:37 --> Undefined variable $expense_info
+in APPPATH\Views\staffs\form.php on line 56.
+ 1 APPPATH\Views\staffs\form.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $expense_info', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staffs\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staffs/form', [], true)
+ 5 APPPATH\Controllers\staffs.php(61): view('staffs/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 10:53:45 --> Undefined array key "firstName"
+in APPPATH\Controllers\staffs.php on line 92.
+ 1 APPPATH\Controllers\staffs.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "firstName"', 'C:\\xamppp\\htdocs\\Apam\\app\\Controllers\\staffs.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 11:21:26 --> mysqli_sql_exception: Duplicate entry '' for key 'username_phone_email' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\staffs.php(91): CodeIgniter\BaseModel->save(Array, Array, '-1')
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 11:21:26 --> Duplicate entry '' for key 'username_phone_email'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `staff` (`username`, `createdAt`, `updatedAt`) VALUES (:username:, :createdAt:, :updatedAt:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\staffs.php(91): CodeIgniter\BaseModel->save([...], [...], '-1')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 11:26:36 --> mysqli_sql_exception: Duplicate entry '' for key 'username_phone_email' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\staffs.php(91): CodeIgniter\BaseModel->save(Array, Array, '-1')
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 11:26:36 --> Duplicate entry '' for key 'username_phone_email'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `staff` (`username`, `createdAt`, `updatedAt`) VALUES (:username:, :createdAt:, :updatedAt:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\staffs.php(91): CodeIgniter\BaseModel->save([...], [...], '-1')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 11:32:57 --> mysqli_sql_exception: Duplicate entry '' for key 'username_phone_email' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\staffs.php(91): CodeIgniter\BaseModel->save(Array, Array, '-1')
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 11:32:57 --> Duplicate entry '' for key 'username_phone_email'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `staff` (`username`, `createdAt`, `updatedAt`) VALUES (:username:, :createdAt:, :updatedAt:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\staffs.php(91): CodeIgniter\BaseModel->save([...], [...], '-1')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 11:44:56 --> mysqli_sql_exception: Duplicate entry '' for key 'username_phone_email' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\staffs.php(91): CodeIgniter\BaseModel->save(Array, Array, '-1')
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 11:44:56 --> Duplicate entry '' for key 'username_phone_email'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `staff` (`username`, `createdAt`, `updatedAt`) VALUES (:username:, :createdAt:, :updatedAt:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\staffs.php(91): CodeIgniter\BaseModel->save([...], [...], '-1')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 11:48:03 --> mysqli_sql_exception: Duplicate entry '' for key 'username_phone_email' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\staffs.php(91): CodeIgniter\BaseModel->save(Array, Array, '-1')
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 11:48:03 --> Duplicate entry '' for key 'username_phone_email'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `staff` (`username`, `createdAt`, `updatedAt`) VALUES (:username:, :createdAt:, :updatedAt:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\staffs.php(91): CodeIgniter\BaseModel->save([...], [...], '-1')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 11:49:52 --> mysqli_sql_exception: Duplicate entry '' for key 'username_phone_email' in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `st...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xamppp\htdocs\Apam\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xamppp\htdocs\Apam\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xamppp\htdocs\Apam\app\Controllers\staffs.php(91): CodeIgniter\BaseModel->save(Array, Array, '-1')
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+#11 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-23 11:49:52 --> Duplicate entry '' for key 'username_phone_email'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `staff` (`username`, `createdAt`, `updatedAt`) VALUES (:username:, :createdAt:, :updatedAt:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\staffs.php(91): CodeIgniter\BaseModel->save([...], [...], '-1')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 12:59:15 --> Undefined array key "firstName"
+in APPPATH\Controllers\staffs.php on line 95.
+ 1 APPPATH\Controllers\staffs.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "firstName"', 'C:\\xamppp\\htdocs\\Apam\\app\\Controllers\\staffs.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\staffs->save('-1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\staffs))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 13:19:24 --> Uncaught ErrorException: Cannot modify header information - headers already sent in C:\xamppp\htdocs\Apam\system\HTTP\ResponseTrait.php:774
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xamppp\\htdoc...', 774)
+#1 C:\xamppp\htdocs\Apam\system\HTTP\ResponseTrait.php(774): setcookie('ci_session', '0u1itv4d8ucfkit...', Array)
+#2 C:\xamppp\htdocs\Apam\system\HTTP\ResponseTrait.php(750): CodeIgniter\HTTP\Response->doSetCookie('ci_session', '0u1itv4d8ucfkit...', Array)
+#3 C:\xamppp\htdocs\Apam\system\HTTP\ResponseTrait.php(730): CodeIgniter\HTTP\Response->dispatchCookies()
+#4 C:\xamppp\htdocs\Apam\system\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+#5 C:\xamppp\htdocs\Apam\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#6 C:\xamppp\htdocs\Apam\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\PageNotFoundException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 404, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Page Not Found
+#0 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(966): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(NULL)
+#1 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(362): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 774.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-23 13:28:10 --> Class "App\Controllers\ExpenseCategory" not found
+in APPPATH\Controllers\expenses.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\Expenses->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 13:39:12 --> Invalid file: "staff/manage.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staff/manage.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staff/manage', [], true)
+ 3 APPPATH\Controllers\Staff.php(42): view('staff/manage', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 13:39:37 --> Invalid file: "staff/manage.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staff/manage.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staff/manage', [], true)
+ 3 APPPATH\Controllers\Staff.php(42): view('staff/manage', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 13:39:55 --> Invalid file: "staff/manage.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('staff/manage.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staff/manage', [], true)
+ 3 APPPATH\Controllers\Staff.php(42): view('staff/manage', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 13:47:58 --> Attempt to read property "email" on null
+in APPPATH\Views\staff\manage.php on line 171.
+ 1 APPPATH\Views\staff\manage.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staff\\manage.php', 171)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staff\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staff/manage', [], true)
+ 5 APPPATH\Controllers\Staff.php(42): view('staff/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 13:48:29 --> Attempt to read property "email" on null
+in APPPATH\Views\staff\manage.php on line 171.
+ 1 APPPATH\Views\staff\manage.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staff\\manage.php', 171)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staff\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staff/manage', [], true)
+ 5 APPPATH\Controllers\Staff.php(42): view('staff/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:14:48 --> Attempt to read property "firstName" on null
+in APPPATH\Views\staff\manage.php on line 193.
+ 1 APPPATH\Views\staff\manage.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "firstName" on null', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staff\\manage.php', 193)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staff\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staff/manage', [], true)
+ 5 APPPATH\Controllers\Staff.php(42): view('staff/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:15:29 --> Call to a member function find() on null
+in APPPATH\Controllers\Staff.php on line 197.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->getAll()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:16:08 --> Call to a member function find() on null
+in APPPATH\Controllers\Staff.php on line 197.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->getAll()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:16:29 --> Call to a member function find() on null
+in APPPATH\Controllers\Staff.php on line 197.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->getAll()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:16:34 --> Call to a member function find() on null
+in APPPATH\Controllers\Staff.php on line 197.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->getAll()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:18:05 --> Undefined property: stdClass::$IDNumber
+in APPPATH\Controllers\Staff.php on line 202.
+ 1 APPPATH\Controllers\Staff.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$IDNumber', 'C:\\xamppp\\htdocs\\Apam\\app\\Controllers\\Staff.php', 202)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:19:02 --> Undefined variable $stores
+in APPPATH\Views\staff\form.php on line 124.
+ 1 APPPATH\Views\staff\form.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stores', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\staff\\form.php', 124)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\staff\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('staff/form', [], true)
+ 5 APPPATH\Controllers\Staff.php(88): view('staff/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Staff->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Staff))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:20:55 --> Class "App\Models\Store" not found
+in APPPATH\Controllers\Expenses.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\Expenses->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-23 14:21:18 --> mysqli_sql_exception: Table 'apam.departments' doesn't exist in C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xamppp\htdocs\Apam\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `expense...', 0)
+#1 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `expense...')
+#2 C:\xamppp\htdocs\Apam\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `expense...')
+#3 C:\xamppp\htdocs\Apam\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `expense...', Array, false)
+#4 C:\xamppp\htdocs\Apam\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamppp\htdocs\Apam\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xamppp\htdocs\Apam\app\Controllers\Expenses.php(98): CodeIgniter\BaseModel->findAll()
+#7 C:\xamppp\htdocs\Apam\app\Controllers\Expenses.php(27): App\Controllers\Expenses->getCategories()
+#8 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(892): App\Controllers\Expenses->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#9 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+#10 C:\xamppp\htdocs\Apam\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xamppp\htdocs\Apam\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-23 14:21:18 --> Table 'apam.departments' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `expense_categories`.`categoryID`, `expense_categories`.`name`, `departments`.`name` as `department`, `departments`.`departmentID`
+FROM `expense_categories`
+LEFT JOIN `departments` ON `expense_categories`.`departmentID` = `departments`.`departmentID`
+WHERE `expense_categories`.`deletedAt` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Expenses.php(98): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Expenses.php(27): App\Controllers\Expenses->getCategories()
+ 6 SYSTEMPATH\CodeIgniter.php(892): App\Controllers\Expenses->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:22:41 --> Class "App\Models\Department" not found
+in APPPATH\Controllers\Settings.php on line 449.
+ 1 APPPATH\Controllers\Settings.php(427): App\Controllers\Settings->getDepartments()
+ 2 APPPATH\Controllers\Expenses.php(38): App\Controllers\Settings->departments4Select()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:24:26 --> Call to undefined method App\Controllers\Settings::departments4Select()
+in APPPATH\Controllers\Expenses.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:25:04 --> Undefined variable $departments
+in APPPATH\Views\expenses\manage.php on line 161.
+ 1 APPPATH\Views\expenses\manage.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\manage.php', 161)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/manage', [], true)
+ 5 APPPATH\Controllers\Expenses.php(37): view('expenses/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:27:02 --> Undefined variable $departments
+in APPPATH\Views\expenses\manage.php on line 161.
+ 1 APPPATH\Views\expenses\manage.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\manage.php', 161)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\manage.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/manage', [], true)
+ 5 APPPATH\Controllers\Expenses.php(37): view('expenses/manage', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:34:39 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Expenses.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('-1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:42:46 --> Undefined property: loggedInStaff::$storeID
+in APPPATH\Controllers\Expenses.php on line 158.
+ 1 APPPATH\Controllers\Expenses.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$storeID', 'C:\\xamppp\\htdocs\\Apam\\app\\Controllers\\Expenses.php', 158)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->getAll('1696118400', '1698796799')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:43:05 --> Undefined property: loggedInStaff::$storeID
+in APPPATH\Controllers\Expenses.php on line 158.
+ 1 APPPATH\Controllers\Expenses.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$storeID', 'C:\\xamppp\\htdocs\\Apam\\app\\Controllers\\Expenses.php', 158)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->getAll('1696118400', '1698796799')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:44:37 --> Undefined property: loggedInStaff::$storeID
+in APPPATH\Controllers\Expenses.php on line 184.
+ 1 APPPATH\Controllers\Expenses.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$storeID', 'C:\\xamppp\\htdocs\\Apam\\app\\Controllers\\Expenses.php', 184)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->getAll('1696118400', '1698796799')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:46:28 --> Call to undefined function App\Controllers\to_currency()
+in APPPATH\Controllers\Expenses.php on line 186.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->getAll('1696118400', '1698796799')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:47:31 --> Call to undefined function App\Controllers\to_currency()
+in APPPATH\Controllers\Expenses.php on line 186.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->getAll('1696118400', '1698796799')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:49:34 --> Call to undefined function App\Controllers\to_currency()
+in APPPATH\Controllers\Expenses.php on line 186.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->getAll('1696118400', '1698796799')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:49:35 --> Call to undefined function App\Controllers\to_currency()
+in APPPATH\Controllers\Expenses.php on line 186.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->getAll('1696118400', '1698796799')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:50:59 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Expenses.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('-1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:51:59 --> Undefined variable $suppliers
+in APPPATH\Views\expenses\form.php on line 88.
+ 1 APPPATH\Views\expenses\form.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $suppliers', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\Expenses.php(48): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:53:27 --> Undefined variable $sup
+in APPPATH\Views\expenses\form.php on line 90.
+ 1 APPPATH\Views\expenses\form.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sup', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 90)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\Expenses.php(48): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:53:46 --> Undefined variable $sup
+in APPPATH\Views\expenses\form.php on line 90.
+ 1 APPPATH\Views\expenses\form.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sup', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 90)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\Expenses.php(48): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:53:58 --> Undefined property: loggedInStaff::$storeID
+in APPPATH\Views\expenses\form.php on line 107.
+ 1 APPPATH\Views\expenses\form.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$storeID', 'C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\form.php', 107)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xamppp\\htdocs\\Apam\\app\\Views\\expenses\\form.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('expenses/form', [], true)
+ 5 APPPATH\Controllers\Expenses.php(48): view('expenses/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->view('-1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:55:20 --> Undefined property: loggedInStaff::$storeID
+in APPPATH\Controllers\Expenses.php on line 62.
+ 1 APPPATH\Controllers\Expenses.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: loggedInStaff::$storeID', 'C:\\xamppp\\htdocs\\Apam\\app\\Controllers\\Expenses.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 14:55:47 --> Undefined array key "storeID"
+in APPPATH\Controllers\Expenses.php on line 70.
+ 1 APPPATH\Controllers\Expenses.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "storeID"', 'C:\\xamppp\\htdocs\\Apam\\app\\Controllers\\Expenses.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Expenses->save('-1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 15:11:25 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 15:11:26 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 15:11:45 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 15:11:45 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 15:13:42 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.css', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.css')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.css')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-23 15:13:43 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\plugins.php on line 7.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('plugins/date_range_picker/daterangepicker.js', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('plugins/date_range_picker/daterangepicker.js')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('plugins/date_range_picker/daterangepicker.js')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

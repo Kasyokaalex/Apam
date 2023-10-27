@@ -1,0 +1,2140 @@
+CRITICAL - 2023-09-26 06:01:45 --> Undefined property: App\Controllers\Login::$staff
+in APPPATH\Controllers\login.php on line 14.
+ 1 APPPATH\Controllers\login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\login.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:01:45 --> Undefined property: App\Controllers\Login::$staff
+in APPPATH\Controllers\login.php on line 14.
+ 1 APPPATH\Controllers\login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Login::$staff', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\login.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:05:38 --> Class "App\Models\staff" not found
+in APPPATH\Controllers\login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:08:50 --> Class "App\Controllers\StaffModel" not found
+in APPPATH\Controllers\login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:08:53 --> Class "App\Controllers\StaffModel" not found
+in APPPATH\Controllers\login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:08:55 --> Class "App\Controllers\StaffModel" not found
+in APPPATH\Controllers\login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:09:03 --> Class "App\Controllers\StaffModel" not found
+in APPPATH\Controllers\login.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:09:05 --> Undefined property: App\Models\staff::$session
+in APPPATH\Models\staff.php on line 307.
+ 1 APPPATH\Models\staff.php(307): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Models\\staff::$session', 'C:\\xampp\\htdocs\\Apam\\app\\Models\\staff.php', 307)
+ 2 APPPATH\Controllers\login.php(22): App\Models\staff->is_logged_in()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:16:39 --> syntax error, unexpected token "private"
+in APPPATH\Models\staff.php on line 307.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\staff.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\staff')
+ 3 APPPATH\Controllers\login.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\staff')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:16:49 --> syntax error, unexpected token "private"
+in APPPATH\Models\staff.php on line 307.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\staff.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\staff')
+ 3 APPPATH\Controllers\login.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\staff')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:16:51 --> Undefined variable $session
+in APPPATH\Models\staff.php on line 308.
+ 1 APPPATH\Models\staff.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\Apam\\app\\Models\\staff.php', 308)
+ 2 APPPATH\Controllers\login.php(23): App\Models\staff->is_logged_in()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:16:54 --> Undefined variable $session
+in APPPATH\Models\staff.php on line 308.
+ 1 APPPATH\Models\staff.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\Apam\\app\\Models\\staff.php', 308)
+ 2 APPPATH\Controllers\login.php(23): App\Models\staff->is_logged_in()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:17:07 --> Undefined variable $session
+in APPPATH\Models\staff.php on line 308.
+ 1 APPPATH\Models\staff.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\Apam\\app\\Models\\staff.php', 308)
+ 2 APPPATH\Controllers\login.php(23): App\Models\staff->is_logged_in()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:17:09 --> Undefined variable $session
+in APPPATH\Models\staff.php on line 308.
+ 1 APPPATH\Models\staff.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\Apam\\app\\Models\\staff.php', 308)
+ 2 APPPATH\Controllers\login.php(23): App\Models\staff->is_logged_in()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:17:12 --> Undefined variable $session
+in APPPATH\Models\staff.php on line 308.
+ 1 APPPATH\Models\staff.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\Apam\\app\\Models\\staff.php', 308)
+ 2 APPPATH\Controllers\login.php(23): App\Models\staff->is_logged_in()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:17:15 --> Undefined variable $session
+in APPPATH\Models\staff.php on line 308.
+ 1 APPPATH\Models\staff.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\xampp\\htdocs\\Apam\\app\\Models\\staff.php', 308)
+ 2 APPPATH\Controllers\login.php(23): App\Models\staff->is_logged_in()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:23:58 --> Too few arguments to function App\Models\staff::__construct(), 0 passed in C:\xampp\htdocs\Apam\app\Controllers\login.php on line 15 and exactly 1 expected
+in APPPATH\Models\staff.php on line 15.
+ 1 APPPATH\Controllers\login.php(15): App\Models\staff->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:26:40 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(23): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:26:43 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(23): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:26:46 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(23): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:28:26 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(27): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:28:40 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(27): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:28:43 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(27): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:28:45 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(27): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:28:46 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(27): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:29:13 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(27): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:29:38 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(27): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:29:41 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(27): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:29:44 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(27): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:29:46 --> Call to a member function get() on null
+in APPPATH\Models\staff.php on line 314.
+ 1 APPPATH\Controllers\login.php(27): App\Models\staff->is_logged_in()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:31:02 --> Class "App\Models\staff" not found
+in APPPATH\Controllers\login.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:31:05 --> Class "App\Models\staff" not found
+in APPPATH\Controllers\login.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:31:21 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:32:59 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:33:02 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:33:58 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:33:58 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:33:59 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:34:00 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:34:01 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:39:18 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:39:22 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:39:24 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:42:07 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:42:10 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:42:13 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:42:41 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:42:43 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:42:45 --> Call to undefined method App\Models\staff::setSession()
+in APPPATH\Controllers\login.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 06:44:42 --> "username" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 613.
+ 1 SYSTEMPATH\Validation\Validation.php(613): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('username')
+ 2 APPPATH\Controllers\login.php(28): CodeIgniter\Validation\Validation->getRuleGroup('username')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:00:19 --> "username" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 613.
+ 1 SYSTEMPATH\Validation\Validation.php(613): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('username')
+ 2 APPPATH\Controllers\login.php(28): CodeIgniter\Validation\Validation->getRuleGroup('username')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:00:22 --> Undefined property: Config\Validation::$username
+in SYSTEMPATH\Validation\Validation.php on line 616.
+ 1 SYSTEMPATH\Validation\Validation.php(616): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Validation::$username', 'C:\\xampp\\htdocs\\Apam\\system\\Validation\\Validation.php', 616)
+ 2 APPPATH\Controllers\login.php(28): CodeIgniter\Validation\Validation->getRuleGroup('username')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:02:57 --> Class CodeIgniter\Validation\Validation contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Validation\ValidationInterface::getRuleGroup)
+in SYSTEMPATH\Validation\Validation.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 07:03:00 --> Class CodeIgniter\Validation\Validation contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Validation\ValidationInterface::getRuleGroup)
+in SYSTEMPATH\Validation\Validation.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 07:03:00 --> Class CodeIgniter\Validation\Validation contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Validation\ValidationInterface::getRuleGroup)
+in SYSTEMPATH\Validation\Validation.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 07:03:01 --> Class CodeIgniter\Validation\Validation contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Validation\ValidationInterface::getRuleGroup)
+in SYSTEMPATH\Validation\Validation.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 07:09:00 --> "username" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 613.
+ 1 SYSTEMPATH\Validation\Validation.php(613): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('username')
+ 2 APPPATH\Controllers\login.php(28): CodeIgniter\Validation\Validation->getRuleGroup('username')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:10:16 --> Call to undefined function validation_errors()
+in APPPATH\Views\login.php on line 36.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH\Controllers\login.php(32): view('login')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:10:18 --> Call to undefined function validation_errors()
+in APPPATH\Views\login.php on line 36.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH\Controllers\login.php(32): view('login')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:10:21 --> Call to undefined function validation_errors()
+in APPPATH\Views\login.php on line 36.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH\Controllers\login.php(32): view('login')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:10:21 --> Call to undefined function validation_errors()
+in APPPATH\Views\login.php on line 36.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH\Controllers\login.php(32): view('login')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:10:22 --> Call to undefined function validation_errors()
+in APPPATH\Views\login.php on line 36.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH\Controllers\login.php(32): view('login')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:10:23 --> Call to undefined function validation_errors()
+in APPPATH\Views\login.php on line 36.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH\Controllers\login.php(32): view('login')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:10:23 --> Call to undefined function validation_errors()
+in APPPATH\Views\login.php on line 36.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH\Controllers\login.php(32): view('login')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:10:30 --> Call to undefined function validation_errors()
+in APPPATH\Views\login.php on line 36.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH\Controllers\login.php(32): view('login')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:15:22 --> Call to undefined function form_open()
+in APPPATH\Views\login.php on line 66.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH\Controllers\login.php(32): view('login')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:22:43 --> Class "App\Controllers\Secure_area" not found
+in APPPATH\Controllers\Home.php on line 6.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('home', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('home')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('home')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:26:06 --> Class "App\Controllers\Secure_area" not found
+in APPPATH\Controllers\Home.php on line 6.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('home', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('home')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('home')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:26:12 --> Class "App\Controllers\Secure_area" not found
+in APPPATH\Controllers\Home.php on line 6.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('home', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('home')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('home')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:26:17 --> Class "App\Controllers\Secure_area" not found
+in APPPATH\Controllers\Home.php on line 6.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('home', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('home')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('home')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:26:18 --> Class "App\Controllers\Secure_area" not found
+in APPPATH\Controllers\Home.php on line 6.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('home', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('home')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('home')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:26:21 --> Class "App\Controllers\Secure_area" not found
+in APPPATH\Controllers\Home.php on line 6.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('home', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('home')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('home')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:39:58 --> Class "App\Models\BaseController" not found
+in APPPATH\Controllers\secure_area.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Secure_area.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Secure_area')
+ 4 APPPATH\Controllers\Home.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Secure_area')
+ 5 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('home', 'get')
+ 7 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('home')
+ 8 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('home')
+ 9 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:50:18 --> Too few arguments to function App\Models\staff::is_logged_in(), 0 passed in C:\xampp\htdocs\Apam\app\Controllers\secure_area.php on line 22 and exactly 1 expected
+in APPPATH\Models\staff.php on line 305.
+ 1 APPPATH\Controllers\secure_area.php(22): App\Models\staff->is_logged_in()
+ 2 APPPATH\Controllers\Home.php(11): App\Controllers\Secure_area->__construct('home')
+ 3 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:51:49 --> Too few arguments to function App\Models\staff::is_logged_in(), 0 passed in C:\xampp\htdocs\Apam\app\Controllers\secure_area.php on line 22 and exactly 1 expected
+in APPPATH\Models\staff.php on line 305.
+ 1 APPPATH\Controllers\secure_area.php(22): App\Models\staff->is_logged_in()
+ 2 APPPATH\Controllers\Home.php(11): App\Controllers\Secure_area->__construct('home')
+ 3 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:55:10 --> Undefined property: App\Controllers\Home::$apartment
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$apartment', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 07:55:12 --> Undefined property: App\Controllers\Home::$apartment
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$apartment', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 08:06:33 --> Undefined property: App\Controllers\Home::$apartment
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$apartment', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 08:16:46 --> Class "CI_Model" not found
+in APPPATH\Models\apartment.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\apartment.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\apartment')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\apartment')
+ 5 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 08:16:49 --> Class "CI_Model" not found
+in APPPATH\Models\apartment.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\apartment.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\apartment')
+ 4 APPPATH\Controllers\Home.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\apartment')
+ 5 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 08:18:04 --> Declaration of App\Models\apartment::save(&$apartment_data, $apartment_id = false, $has_payment = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\apartment.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 08:46:30 --> Declaration of App\Models\apartment::save(&$apartment_data, $apartment_id = false, $has_payment = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\apartment.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 08:50:17 --> Declaration of App\Models\apartment::save(array $apartment_data, bool $apartment_id = false, bool $has_payment = false): bool must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\apartment.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 08:50:21 --> Declaration of App\Models\apartment::save(array $apartment_data, bool $apartment_id = false, bool $has_payment = false): bool must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\apartment.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 08:55:25 --> Declaration of App\Models\apartment::save(array $apartment_data, bool $apartment_id = false, bool $has_payment = false): bool must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\apartment.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 08:55:31 --> Declaration of App\Models\apartment::save(array $apartment_data, bool $apartment_id = false, bool $has_payment = false): bool must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\apartment.php on line 176.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 09:07:26 --> Declaration of App\Models\apartment::delete($apartment_id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\apartment.php on line 241.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 09:07:29 --> Declaration of App\Models\apartment::delete($apartment_id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\apartment.php on line 241.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 09:07:32 --> Declaration of App\Models\apartment::delete($apartment_id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\apartment.php on line 241.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 10:01:57 --> Declaration of App\Models\apartment::delete($apartment_id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\apartment.php on line 241.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 10:22:47 --> Declaration of App\Models\apartment::delete($apartment_id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\apartment.php on line 241.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 10:24:13 --> Class "CI_Model" not found
+in APPPATH\Models\expense.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 5 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:25:12 --> Class "App\Models\Model" not found
+in APPPATH\Models\expense.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 5 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:25:15 --> Class "App\Models\Model" not found
+in APPPATH\Models\expense.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 5 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:26:02 --> Declaration of App\Models\Expense::save($expense_data, $expense_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\expense.php on line 91.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 10:26:05 --> Declaration of App\Models\Expense::save($expense_data, $expense_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\expense.php on line 91.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 10:26:07 --> Declaration of App\Models\Expense::save($expense_data, $expense_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\expense.php on line 91.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 10:30:55 --> Declaration of App\Models\Expense::delete($expense_id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\expense.php on line 120.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 10:35:25 --> Cannot redeclare App\Models\Expense::save()
+in APPPATH\Models\expense.php on line 120.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 10:37:58 --> Cannot redeclare App\Models\Expense::save()
+in APPPATH\Models\expense.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 10:38:01 --> Cannot redeclare App\Models\Expense::save()
+in APPPATH\Models\expense.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 10:52:35 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:55:00 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:55:05 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:55:07 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:55:09 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:55:10 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:55:11 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:56:46 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:56:49 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:56:50 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:56:53 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:57:56 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:59:11 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:59:14 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:59:14 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:59:15 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 10:59:16 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:00:55 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:00:58 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:00:59 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:07:25 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:07:29 --> syntax error, unexpected token "public", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:07:46 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:07:49 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:07:52 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:08:19 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:08:22 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:08:24 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:08:27 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:08:29 --> syntax error, unexpected token "function", expecting "," or ";"
+in APPPATH\Models\expense.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\expense.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\expense')
+ 3 APPPATH\Controllers\Home.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\expense')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:09:07 --> Declaration of App\Models\Expense::save($expense_data, $expense_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\expense.php on line 91.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 11:13:45 --> Declaration of App\Models\Expense::save($expense_data, $expense_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\expense.php on line 91.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 11:14:24 --> Declaration of App\Models\Expense::delete($expense_id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\expense.php on line 117.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 11:15:51 --> Class "CI_Model" not found
+in APPPATH\Models\payment.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\payment.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\payment')
+ 4 APPPATH\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\payment')
+ 5 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:17:17 --> Class "App\Models\CI_Model" not found
+in APPPATH\Models\payment.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\payment.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\payment')
+ 4 APPPATH\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\payment')
+ 5 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:17:20 --> Class "App\Model" not found
+in APPPATH\Models\payment.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\payment.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\payment')
+ 4 APPPATH\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\payment')
+ 5 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:17:23 --> Class "App\Model" not found
+in APPPATH\Models\payment.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Models\\payment.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\payment')
+ 4 APPPATH\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\payment')
+ 5 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:18:07 --> Declaration of App\Models\Payment::save(&$payment_data, $payment_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\payment.php on line 142.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 11:19:07 --> Declaration of App\Models\Payment::save(&$payment_data, $payment_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\payment.php on line 142.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 11:21:49 --> Declaration of App\Models\Payment::save(&$payment_data, $payment_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\payment.php on line 143.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 11:24:11 --> Declaration of App\Models\Payment::delete($payment_id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\payment.php on line 164.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 11:25:38 --> Undefined property: App\Controllers\Home::$apartment
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$apartment', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:25:41 --> Undefined property: App\Controllers\Home::$apartment
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$apartment', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:25:45 --> Undefined property: App\Controllers\Home::$apartment
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$apartment', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:28:54 --> Undefined property: App\Controllers\Home::$apartment
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$apartment', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:28:57 --> Undefined property: App\Controllers\Home::$apartment
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$apartment', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:29:00 --> Undefined property: App\Controllers\Home::$apartment
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$apartment', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:29:02 --> Undefined property: App\Controllers\Home::$apartment
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$apartment', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:30:23 --> Undefined property: App\Controllers\Home::$apartment
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$apartment', 'C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:34:19 --> Unsupported operand types: string - string
+in APPPATH\Models\apartment.php on line 605.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:35:23 --> Unsupported operand types: string - string
+in APPPATH\Models\apartment.php on line 605.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:40:25 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\apartment.php on line 606.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:43:54 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\apartment.php on line 605.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:43:58 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\apartment.php on line 605.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:44:00 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\apartment.php on line 605.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:44:04 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\apartment.php on line 605.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:44:53 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\apartment.php on line 605.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:45:45 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\apartment.php on line 605.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:45:48 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\apartment.php on line 605.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:45:49 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\apartment.php on line 605.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:45:49 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\apartment.php on line 605.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:48:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\apartment.php on line 616.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:49:51 --> Unsupported operand types: DateTime - DateTime
+in APPPATH\Models\apartment.php on line 608.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:50:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\apartment.php on line 616.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 11:59:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\apartment.php on line 616.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:14:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\apartment.php on line 616.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:16:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\apartment.php on line 617.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:16:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\apartment.php on line 617.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:16:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\apartment.php on line 617.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:16:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\apartment.php on line 617.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:18:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\apartment.php on line 618.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:18:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\apartment.php on line 618.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:18:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\apartment.php on line 618.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:18:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\apartment.php on line 618.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:20:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\apartment.php on line 619.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:20:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\apartment.php on line 619.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:20:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\apartment.php on line 619.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:20:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\apartment.php on line 619.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:20:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\apartment.php on line 619.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:21:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\apartment.php on line 619.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:21:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\apartment.php on line 619.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:21:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\apartment.php on line 619.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:21:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\apartment.php on line 619.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:22:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\apartment.php on line 619.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:22:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\apartment.php on line 619.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:25:34 --> Division by zero
+in APPPATH\Models\apartment.php on line 634.
+ 1 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:26:46 --> Undefined variable $diff
+in APPPATH\Models\apartment.php on line 640.
+ 1 APPPATH\Models\apartment.php(640): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $diff', 'C:\\xampp\\htdocs\\Apam\\app\\Models\\apartment.php', 640)
+ 2 APPPATH\Controllers\Home.php(20): App\Models\apartment->get_total_apartments_by_range(Object(DateTime), Object(DateTime))
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:27:33 --> Unsupported operand types: string - string
+in APPPATH\Models\expense.php on line 158.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:29:18 --> Unsupported operand types: DateTime - DateTime
+in APPPATH\Models\expense.php on line 161.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:29:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\expense.php on line 169.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:30:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\expense.php on line 169.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:30:11 --> Unsupported operand types: DateTime - DateTime
+in APPPATH\Models\expense.php on line 161.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:33:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\expense.php on line 167.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:34:36 --> Unsupported operand types: string - string
+in APPPATH\Models\expense.php on line 158.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 12:38:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(36): CodeIgniter\Model->__call('get_total_by_range', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:05:38 --> Unsupported operand types: string - string
+in APPPATH\Models\expense.php on line 158.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:08:15 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\expense.php on line 159.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:08:18 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\expense.php on line 159.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:08:32 --> Class "App\Models\DateTime" not found
+in APPPATH\Models\expense.php on line 160.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:08:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\expense.php on line 166.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:08:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\expense.php on line 166.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:13:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\expense.php on line 165.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:13:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\expense.php on line 165.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:15:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\expense.php on line 165.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:15:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\expense.php on line 165.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:17:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\expense.php on line 165.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:17:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\expense.php on line 165.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:20:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\expense.php on line 166.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:20:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\expense.php on line 166.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:39:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\expense.php on line 166.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:44:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\expense.php on line 175.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:44:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\expense.php on line 175.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:44:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\expense.php on line 175.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:54:37 --> Division by zero
+in APPPATH\Models\expense.php on line 185.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:55:56 --> Unsupported operand types: string - string
+in APPPATH\Models\payment.php on line 259.
+ 1 APPPATH\Controllers\Home.php(55): App\Models\Payment->get_total_by_range('', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:57:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\expense.php on line 168.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 13:57:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\expense.php on line 168.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:02:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\expense.php on line 168.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:02:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\expense.php on line 168.
+ 1 APPPATH\Controllers\Home.php(36): App\Models\Expense->get_total_by_range(Object(DateTime), Object(DateTime))
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:02:54 --> Class "Secure_area" not found
+in APPPATH\Controllers\apartments.php on line 6.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('apartments', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('apartments')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('apartments')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:03:19 --> Declaration of App\Models\Person::save(&$person_data, $person_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\person.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 14:03:38 --> Class "Secure_area" not found
+in APPPATH\Controllers\person_controller.php on line 6.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:05:48 --> Interface "App\Controllers\iPerson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 8.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:06:33 --> Interface "App\Controllers\interfaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 9.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:06:36 --> Interface "App\Controllers\interfaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 9.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:07:08 --> Interface "App\Controllers\interfaces\iPerson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 9.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:07:11 --> Interface "App\Controllers\interfaces\iPerson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 9.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:11:12 --> Interface "App\Controllers\interaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:11:16 --> Interface "App\Controllers\interaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:11:40 --> Interface "App\Controllers\interfaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:11:42 --> Interface "App\Controllers\interfaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:11:43 --> Interface "App\Controllers\interfaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:11:45 --> Interface "App\Controllers\interfaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:12:02 --> Interface "App\Controllers\interfaces\iPerson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:12:04 --> Interface "App\Controllers\interfaces\iPerson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:12:05 --> Interface "App\Controllers\interfaces\iPerson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:12:06 --> Interface "App\Controllers\interfaces\iPerson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:12:06 --> Interface "App\Controllers\interfaces\iPerson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:12:54 --> Interface "App\Controllers\interfaces\iPerson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:12:57 --> Interface "App\Controllers\iPerson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:13:10 --> Interface "App\Controllers\interfaces\iPerson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 7.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:19:56 --> Interface "App\Controllers\interaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 8.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:19:59 --> Interface "App\Controllers\interaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 8.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:20:24 --> Class "Secure_area" not found
+in APPPATH\Controllers\apartments.php on line 6.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('apartments', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('apartments')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('apartments')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:21:53 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\apartments.php on line 10.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('apartments', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('apartments')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('apartments')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:21:56 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\apartments.php on line 10.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('apartments', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('apartments')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('apartments')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:22:01 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\apartments.php on line 10.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('apartments', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('apartments')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('apartments')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:22:29 --> Interface "App\Controllers\interfaces\iData_controller" not found
+in APPPATH\Controllers\apartments.php on line 9.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('apartments', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('apartments')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('apartments')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:24:17 --> Declaration of App\Models\Person::save(&$person_data, $person_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\person.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 14:24:20 --> Declaration of App\Models\Person::save(&$person_data, $person_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\person.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 14:24:35 --> Interface "App\Controllers\interaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 8.
+ 1 APPPATH\Controllers\tenants.php(3): require_once()
+ 2 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 3 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 4 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 5 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 6 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:25:40 --> Interface "App\Controllers\interaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Person_controller.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Person_controller')
+ 4 APPPATH\Controllers\tenants.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Person_controller')
+ 5 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 6 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 7 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 8 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 9 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:25:43 --> Interface "App\Controllers\interaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Person_controller.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Person_controller')
+ 4 APPPATH\Controllers\tenants.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Person_controller')
+ 5 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 6 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 7 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 8 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 9 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:25:45 --> Interface "App\Controllers\interaces\iperson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Person_controller.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Person_controller')
+ 4 APPPATH\Controllers\tenants.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Person_controller')
+ 5 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 6 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 7 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 8 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 9 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:26:32 --> Interface "App\Controllers\iPerson_controller" not found
+in APPPATH\Controllers\person_controller.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\Person_controller.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Person_controller')
+ 4 APPPATH\Controllers\tenants.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Person_controller')
+ 5 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\Apam\\app\\Controllers\\tenants.php')
+ 6 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('tenants', 'get')
+ 7 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('tenants')
+ 8 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('tenants')
+ 9 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:26:46 --> Declaration of App\Models\Person::save(&$person_data, $person_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\person.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 14:38:33 --> Declaration of App\Models\Person::save(&$person_data, $person_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\person.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-26 14:38:58 --> Class "Secure_area" not found
+in APPPATH\Controllers\letters.php on line 6.
+ 1 SYSTEMPATH\Router\AutoRouter.php(161): include_once()
+ 2 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('letters', 'get')
+ 3 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('letters')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('letters')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Apam\\public\\index.php')
+CRITICAL - 2023-09-26 14:43:27 --> Declaration of App\Models\Person::save(&$person_data, $person_id = false) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\person.php on line 78.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
